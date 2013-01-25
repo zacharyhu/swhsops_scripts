@@ -1,0 +1,2037 @@
+2012/11/30 02:09:58 [error] [exception.CDbException] exception 'CDbException' with message 'The table "gp_data_daily_cash" for active record class "DailyCash" cannot be found in the database.' in D:\workshop\YII\framework\db\ar\CActiveRecord.php:2312
+Stack trace:
+#0 D:\workshop\YII\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(DailyCash))
+#1 D:\workshop\YII\framework\db\ar\CActiveRecord.php(403): CActiveRecord::model('DailyCash')
+#2 D:\workshop\YII\framework\db\ar\CActiveRecord.php(78): CActiveRecord->getMetaData()
+#3 D:\workshop\ydc\protected\controllers\DailyCashController.php(136): CActiveRecord->__construct('search')
+#4 D:\workshop\YII\framework\web\actions\CInlineAction.php(50): DailyCashController->actionAdmin()
+#5 D:\workshop\YII\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\workshop\YII\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 D:\workshop\YII\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 D:\workshop\YII\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 D:\workshop\YII\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\workshop\YII\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\workshop\YII\framework\web\CController.php(292): CFilterChain->run()
+#12 D:\workshop\YII\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\workshop\YII\framework\web\CWebApplication.php(283): CController->run('admin')
+#14 D:\workshop\YII\framework\web\CWebApplication.php(142): CWebApplication->runController('dailycash/admin')
+#15 D:\workshop\YII\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\workshop\ydc\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/ydc/index.php?r=dailycash/admin
+HTTP_REFERER=http://localhost/ydc/index.php?r=site/login
+---
+2012/11/30 02:10:45 [error] [exception.CDbException] exception 'CDbException' with message 'The table "gp_data_daily_cash" for active record class "DailyCash" cannot be found in the database.' in D:\workshop\YII\framework\db\ar\CActiveRecord.php:2312
+Stack trace:
+#0 D:\workshop\YII\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(DailyCash))
+#1 D:\workshop\YII\framework\db\ar\CActiveRecord.php(403): CActiveRecord::model('DailyCash')
+#2 D:\workshop\YII\framework\db\ar\CActiveRecord.php(78): CActiveRecord->getMetaData()
+#3 D:\workshop\ydc\protected\controllers\DailyCashController.php(136): CActiveRecord->__construct('search')
+#4 D:\workshop\YII\framework\web\actions\CInlineAction.php(50): DailyCashController->actionAdmin()
+#5 D:\workshop\YII\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\workshop\YII\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 D:\workshop\YII\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 D:\workshop\YII\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 D:\workshop\YII\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\workshop\YII\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\workshop\YII\framework\web\CController.php(292): CFilterChain->run()
+#12 D:\workshop\YII\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\workshop\YII\framework\web\CWebApplication.php(283): CController->run('admin')
+#14 D:\workshop\YII\framework\web\CWebApplication.php(142): CWebApplication->runController('dailycash/admin')
+#15 D:\workshop\YII\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\workshop\ydc\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/ydc/index.php?r=dailycash/admin
+HTTP_REFERER=http://localhost/ydc/index.php?r=site/login
+---
+2012/11/30 02:10:46 [error] [exception.CDbException] exception 'CDbException' with message 'The table "gp_data_daily_cash" for active record class "DailyCash" cannot be found in the database.' in D:\workshop\YII\framework\db\ar\CActiveRecord.php:2312
+Stack trace:
+#0 D:\workshop\YII\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(DailyCash))
+#1 D:\workshop\YII\framework\db\ar\CActiveRecord.php(403): CActiveRecord::model('DailyCash')
+#2 D:\workshop\YII\framework\db\ar\CActiveRecord.php(78): CActiveRecord->getMetaData()
+#3 D:\workshop\ydc\protected\controllers\DailyCashController.php(136): CActiveRecord->__construct('search')
+#4 D:\workshop\YII\framework\web\actions\CInlineAction.php(50): DailyCashController->actionAdmin()
+#5 D:\workshop\YII\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\workshop\YII\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 D:\workshop\YII\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 D:\workshop\YII\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 D:\workshop\YII\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\workshop\YII\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\workshop\YII\framework\web\CController.php(292): CFilterChain->run()
+#12 D:\workshop\YII\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\workshop\YII\framework\web\CWebApplication.php(283): CController->run('admin')
+#14 D:\workshop\YII\framework\web\CWebApplication.php(142): CWebApplication->runController('dailycash/admin')
+#15 D:\workshop\YII\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\workshop\ydc\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/ydc/index.php?r=dailycash/admin
+HTTP_REFERER=http://localhost/ydc/index.php?r=site/login
+---
+2012/11/30 02:12:36 [error] [exception.CDbException] exception 'CDbException' with message 'The table "gp_data_daily_cash" for active record class "DailyCash" cannot be found in the database.' in D:\workshop\YII\framework\db\ar\CActiveRecord.php:2312
+Stack trace:
+#0 D:\workshop\YII\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(DailyCash))
+#1 D:\workshop\YII\framework\db\ar\CActiveRecord.php(403): CActiveRecord::model('DailyCash')
+#2 D:\workshop\YII\framework\db\ar\CActiveRecord.php(78): CActiveRecord->getMetaData()
+#3 D:\workshop\ydc\protected\controllers\DailyCashController.php(136): CActiveRecord->__construct('search')
+#4 D:\workshop\YII\framework\web\actions\CInlineAction.php(50): DailyCashController->actionAdmin()
+#5 D:\workshop\YII\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\workshop\YII\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 D:\workshop\YII\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 D:\workshop\YII\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 D:\workshop\YII\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\workshop\YII\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\workshop\YII\framework\web\CController.php(292): CFilterChain->run()
+#12 D:\workshop\YII\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\workshop\YII\framework\web\CWebApplication.php(283): CController->run('admin')
+#14 D:\workshop\YII\framework\web\CWebApplication.php(142): CWebApplication->runController('dailycash/admin')
+#15 D:\workshop\YII\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\workshop\ydc\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/ydc/index.php?r=dailycash/admin
+---
+2012/11/30 05:46:32 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\workshop\YII\framework\web\CController.php:337
+Stack trace:
+#0 D:\workshop\YII\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\workshop\YII\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\workshop\YII\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 D:\workshop\YII\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 D:\workshop\YII\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\workshop\YII\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\workshop\YII\framework\web\CController.php(292): CFilterChain->run()
+#7 D:\workshop\YII\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\workshop\YII\framework\web\CWebApplication.php(283): CController->run('view')
+#9 D:\workshop\YII\framework\web\CWebApplication.php(142): CWebApplication->runController('dailyGame/view')
+#10 D:\workshop\YII\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\workshop\ydc\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/ydc/index.php?r=dailyGame/view
+---
+2012/11/30 05:52:59 [error] [exception.CException] exception 'CException' with message 'Property "CActiveDataProvider.pagenation" is not defined.' in D:\workshop\YII\framework\base\CComponent.php:174
+Stack trace:
+#0 D:\workshop\YII\framework\web\CActiveDataProvider.php(84): CComponent->__set('pagenation', Array)
+#1 D:\workshop\ydc\protected\models\DailyGame.php(113): CActiveDataProvider->__construct(Object(DailyGame), Array)
+#2 D:\workshop\ydc\protected\views\dailyGame\admin.php(45): DailyGame->search()
+#3 D:\workshop\YII\framework\web\CBaseController.php(127): require('D:\workshop\ydc...')
+#4 D:\workshop\YII\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\workshop\ydc...', Array, true)
+#5 D:\workshop\YII\framework\web\CController.php(870): CBaseController->renderFile('D:\workshop\ydc...', Array, true)
+#6 D:\workshop\YII\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#7 D:\workshop\ydc\protected\controllers\DailyGameController.php(143): CController->render('admin', Array)
+#8 D:\workshop\YII\framework\web\actions\CInlineAction.php(50): DailyGameController->actionAdmin()
+#9 D:\workshop\YII\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\workshop\YII\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 D:\workshop\YII\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 D:\workshop\YII\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 D:\workshop\YII\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 D:\workshop\YII\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 D:\workshop\YII\framework\web\CController.php(292): CFilterChain->run()
+#16 D:\workshop\YII\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\workshop\YII\framework\web\CWebApplication.php(283): CController->run('admin')
+#18 D:\workshop\YII\framework\web\CWebApplication.php(142): CWebApplication->runController('dailyGame/admin')
+#19 D:\workshop\YII\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 D:\workshop\ydc\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/ydc/index.php?r=dailyGame/admin
+HTTP_REFERER=http://localhost/ydc/index.php?r=dailyGame
+---
+2012/11/30 05:58:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "../dailycash/admin".' in D:\workshop\YII\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\workshop\YII\framework\web\CWebApplication.php(142): CWebApplication->runController('../dailycash/ad...')
+#1 D:\workshop\YII\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\workshop\ydc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ydc/index.php?r=../dailycash/admin
+HTTP_REFERER=http://localhost/ydc/index.php?r=dailyGame/admin
+---
+2012/11/30 05:58:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "../dailycash/admin".' in D:\workshop\YII\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\workshop\YII\framework\web\CWebApplication.php(142): CWebApplication->runController('../dailycash/ad...')
+#1 D:\workshop\YII\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\workshop\ydc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ydc/index.php?r=../dailycash/admin
+HTTP_REFERER=http://localhost/ydc/index.php?r=dailyGame/admin
+---
+2012/11/30 05:58:50 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\workshop\YII\framework\web\CController.php:337
+Stack trace:
+#0 D:\workshop\YII\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\workshop\YII\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\workshop\YII\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 D:\workshop\YII\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 D:\workshop\YII\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\workshop\YII\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\workshop\YII\framework\web\CController.php(292): CFilterChain->run()
+#7 D:\workshop\YII\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\workshop\YII\framework\web\CWebApplication.php(283): CController->run('view')
+#9 D:\workshop\YII\framework\web\CWebApplication.php(142): CWebApplication->runController('dailyGame/view')
+#10 D:\workshop\YII\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\workshop\ydc\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/ydc/index.php?r=dailyGame/view
+---
+2012/11/30 06:18:00 [error] [exception.CException] exception 'CException' with message 'Property "DailyGame.New_幸运大转盘" is not defined.' in D:\workshop\YII\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\workshop\YII\framework\db\ar\CActiveRecord.php(144): CComponent->__get('New_???????????...')
+#1 D:\workshop\ydc\protected\models\DailyGame.php(123): CActiveRecord->__get('New_???????????...')
+#2 D:\workshop\YII\framework\base\CComponent.php(607) : eval()'d code(1): DailyGame->getGameName('New_???????????...')
+#3 D:\workshop\YII\framework\base\CComponent.php(607): eval()
+#4 D:\workshop\YII\framework\zii\widgets\grid\CDataColumn.php(132): CComponent->evaluateExpression('DailyGame::mode...', Array)
+#5 D:\workshop\YII\framework\zii\widgets\grid\CGridColumn.php(145): CDataColumn->renderDataCellContent(0, Object(DailyGame))
+#6 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(546): CGridColumn->renderDataCell(0)
+#7 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(517): CGridView->renderTableRow(0)
+#8 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(427): CGridView->renderTableBody()
+#9 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(161): CGridView->renderItems()
+#10 [internal function]: CBaseListView->renderSection(Array)
+#11 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(144): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#12 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(129): CBaseListView->renderContent()
+#13 D:\workshop\YII\framework\web\CBaseController.php(174): CBaseListView->run()
+#14 D:\workshop\ydc\protected\views\dailyGame\admin.php(63): CBaseController->widget('zii.widgets.gri...', Array)
+#15 D:\workshop\YII\framework\web\CBaseController.php(127): require('D:\workshop\ydc...')
+#16 D:\workshop\YII\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\workshop\ydc...', Array, true)
+#17 D:\workshop\YII\framework\web\CController.php(870): CBaseController->renderFile('D:\workshop\ydc...', Array, true)
+#18 D:\workshop\YII\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#19 D:\workshop\ydc\protected\controllers\DailyGameController.php(143): CController->render('admin', Array)
+#20 D:\workshop\YII\framework\web\actions\CInlineAction.php(50): DailyGameController->actionAdmin()
+#21 D:\workshop\YII\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#22 D:\workshop\YII\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#23 D:\workshop\YII\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#24 D:\workshop\YII\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#25 D:\workshop\YII\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#26 D:\workshop\YII\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#27 D:\workshop\YII\framework\web\CController.php(292): CFilterChain->run()
+#28 D:\workshop\YII\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#29 D:\workshop\YII\framework\web\CWebApplication.php(283): CController->run('admin')
+#30 D:\workshop\YII\framework\web\CWebApplication.php(142): CWebApplication->runController('dailygame/admin')
+#31 D:\workshop\YII\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#32 D:\workshop\ydc\index.php(13): CApplication->run()
+#33 {main}
+REQUEST_URI=/ydc/index.php?r=dailygame/admin
+HTTP_REFERER=http://localhost/ydc/index.php?r=dailycash/admin
+---
+2012/11/30 06:18:44 [error] [exception.CException] exception 'CException' with message 'Property "DailyGame.New_幸运大转盘" is not defined.' in D:\workshop\YII\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\workshop\YII\framework\db\ar\CActiveRecord.php(144): CComponent->__get('New_???????????...')
+#1 D:\workshop\ydc\protected\models\DailyGame.php(123): CActiveRecord->__get('New_???????????...')
+#2 D:\workshop\YII\framework\base\CComponent.php(607) : eval()'d code(1): DailyGame->getGameName('New_???????????...')
+#3 D:\workshop\YII\framework\base\CComponent.php(607): eval()
+#4 D:\workshop\YII\framework\zii\widgets\grid\CDataColumn.php(132): CComponent->evaluateExpression('DailyGame::mode...', Array)
+#5 D:\workshop\YII\framework\zii\widgets\grid\CGridColumn.php(145): CDataColumn->renderDataCellContent(0, Object(DailyGame))
+#6 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(546): CGridColumn->renderDataCell(0)
+#7 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(517): CGridView->renderTableRow(0)
+#8 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(427): CGridView->renderTableBody()
+#9 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(161): CGridView->renderItems()
+#10 [internal function]: CBaseListView->renderSection(Array)
+#11 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(144): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#12 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(129): CBaseListView->renderContent()
+#13 D:\workshop\YII\framework\web\CBaseController.php(174): CBaseListView->run()
+#14 D:\workshop\ydc\protected\views\dailyGame\admin.php(63): CBaseController->widget('zii.widgets.gri...', Array)
+#15 D:\workshop\YII\framework\web\CBaseController.php(127): require('D:\workshop\ydc...')
+#16 D:\workshop\YII\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\workshop\ydc...', Array, true)
+#17 D:\workshop\YII\framework\web\CController.php(870): CBaseController->renderFile('D:\workshop\ydc...', Array, true)
+#18 D:\workshop\YII\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#19 D:\workshop\ydc\protected\controllers\DailyGameController.php(143): CController->render('admin', Array)
+#20 D:\workshop\YII\framework\web\actions\CInlineAction.php(50): DailyGameController->actionAdmin()
+#21 D:\workshop\YII\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#22 D:\workshop\YII\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#23 D:\workshop\YII\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#24 D:\workshop\YII\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#25 D:\workshop\YII\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#26 D:\workshop\YII\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#27 D:\workshop\YII\framework\web\CController.php(292): CFilterChain->run()
+#28 D:\workshop\YII\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#29 D:\workshop\YII\framework\web\CWebApplication.php(283): CController->run('admin')
+#30 D:\workshop\YII\framework\web\CWebApplication.php(142): CWebApplication->runController('dailygame/admin')
+#31 D:\workshop\YII\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#32 D:\workshop\ydc\index.php(13): CApplication->run()
+#33 {main}
+REQUEST_URI=/ydc/index.php?r=dailygame/admin
+HTTP_REFERER=http://localhost/ydc/index.php?r=dailycash/admin
+---
+2012/11/30 06:18:45 [error] [exception.CException] exception 'CException' with message 'Property "DailyGame.New_幸运大转盘" is not defined.' in D:\workshop\YII\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\workshop\YII\framework\db\ar\CActiveRecord.php(144): CComponent->__get('New_???????????...')
+#1 D:\workshop\ydc\protected\models\DailyGame.php(123): CActiveRecord->__get('New_???????????...')
+#2 D:\workshop\YII\framework\base\CComponent.php(607) : eval()'d code(1): DailyGame->getGameName('New_???????????...')
+#3 D:\workshop\YII\framework\base\CComponent.php(607): eval()
+#4 D:\workshop\YII\framework\zii\widgets\grid\CDataColumn.php(132): CComponent->evaluateExpression('DailyGame::mode...', Array)
+#5 D:\workshop\YII\framework\zii\widgets\grid\CGridColumn.php(145): CDataColumn->renderDataCellContent(0, Object(DailyGame))
+#6 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(546): CGridColumn->renderDataCell(0)
+#7 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(517): CGridView->renderTableRow(0)
+#8 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(427): CGridView->renderTableBody()
+#9 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(161): CGridView->renderItems()
+#10 [internal function]: CBaseListView->renderSection(Array)
+#11 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(144): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#12 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(129): CBaseListView->renderContent()
+#13 D:\workshop\YII\framework\web\CBaseController.php(174): CBaseListView->run()
+#14 D:\workshop\ydc\protected\views\dailyGame\admin.php(63): CBaseController->widget('zii.widgets.gri...', Array)
+#15 D:\workshop\YII\framework\web\CBaseController.php(127): require('D:\workshop\ydc...')
+#16 D:\workshop\YII\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\workshop\ydc...', Array, true)
+#17 D:\workshop\YII\framework\web\CController.php(870): CBaseController->renderFile('D:\workshop\ydc...', Array, true)
+#18 D:\workshop\YII\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#19 D:\workshop\ydc\protected\controllers\DailyGameController.php(143): CController->render('admin', Array)
+#20 D:\workshop\YII\framework\web\actions\CInlineAction.php(50): DailyGameController->actionAdmin()
+#21 D:\workshop\YII\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#22 D:\workshop\YII\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#23 D:\workshop\YII\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#24 D:\workshop\YII\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#25 D:\workshop\YII\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#26 D:\workshop\YII\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#27 D:\workshop\YII\framework\web\CController.php(292): CFilterChain->run()
+#28 D:\workshop\YII\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#29 D:\workshop\YII\framework\web\CWebApplication.php(283): CController->run('admin')
+#30 D:\workshop\YII\framework\web\CWebApplication.php(142): CWebApplication->runController('dailygame/admin')
+#31 D:\workshop\YII\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#32 D:\workshop\ydc\index.php(13): CApplication->run()
+#33 {main}
+REQUEST_URI=/ydc/index.php?r=dailygame/admin
+HTTP_REFERER=http://localhost/ydc/index.php?r=dailycash/admin
+---
+2012/11/30 06:18:46 [error] [exception.CException] exception 'CException' with message 'Property "DailyGame.New_幸运大转盘" is not defined.' in D:\workshop\YII\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\workshop\YII\framework\db\ar\CActiveRecord.php(144): CComponent->__get('New_???????????...')
+#1 D:\workshop\ydc\protected\models\DailyGame.php(123): CActiveRecord->__get('New_???????????...')
+#2 D:\workshop\YII\framework\base\CComponent.php(607) : eval()'d code(1): DailyGame->getGameName('New_???????????...')
+#3 D:\workshop\YII\framework\base\CComponent.php(607): eval()
+#4 D:\workshop\YII\framework\zii\widgets\grid\CDataColumn.php(132): CComponent->evaluateExpression('DailyGame::mode...', Array)
+#5 D:\workshop\YII\framework\zii\widgets\grid\CGridColumn.php(145): CDataColumn->renderDataCellContent(0, Object(DailyGame))
+#6 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(546): CGridColumn->renderDataCell(0)
+#7 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(517): CGridView->renderTableRow(0)
+#8 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(427): CGridView->renderTableBody()
+#9 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(161): CGridView->renderItems()
+#10 [internal function]: CBaseListView->renderSection(Array)
+#11 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(144): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#12 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(129): CBaseListView->renderContent()
+#13 D:\workshop\YII\framework\web\CBaseController.php(174): CBaseListView->run()
+#14 D:\workshop\ydc\protected\views\dailyGame\admin.php(63): CBaseController->widget('zii.widgets.gri...', Array)
+#15 D:\workshop\YII\framework\web\CBaseController.php(127): require('D:\workshop\ydc...')
+#16 D:\workshop\YII\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\workshop\ydc...', Array, true)
+#17 D:\workshop\YII\framework\web\CController.php(870): CBaseController->renderFile('D:\workshop\ydc...', Array, true)
+#18 D:\workshop\YII\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#19 D:\workshop\ydc\protected\controllers\DailyGameController.php(143): CController->render('admin', Array)
+#20 D:\workshop\YII\framework\web\actions\CInlineAction.php(50): DailyGameController->actionAdmin()
+#21 D:\workshop\YII\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#22 D:\workshop\YII\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#23 D:\workshop\YII\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#24 D:\workshop\YII\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#25 D:\workshop\YII\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#26 D:\workshop\YII\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#27 D:\workshop\YII\framework\web\CController.php(292): CFilterChain->run()
+#28 D:\workshop\YII\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#29 D:\workshop\YII\framework\web\CWebApplication.php(283): CController->run('admin')
+#30 D:\workshop\YII\framework\web\CWebApplication.php(142): CWebApplication->runController('dailygame/admin')
+#31 D:\workshop\YII\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#32 D:\workshop\ydc\index.php(13): CApplication->run()
+#33 {main}
+REQUEST_URI=/ydc/index.php?r=dailygame/admin
+HTTP_REFERER=http://localhost/ydc/index.php?r=dailycash/admin
+---
+2012/11/30 06:18:48 [error] [exception.CException] exception 'CException' with message 'Property "DailyGame.New_幸运大转盘" is not defined.' in D:\workshop\YII\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\workshop\YII\framework\db\ar\CActiveRecord.php(144): CComponent->__get('New_???????????...')
+#1 D:\workshop\ydc\protected\models\DailyGame.php(123): CActiveRecord->__get('New_???????????...')
+#2 D:\workshop\YII\framework\base\CComponent.php(607) : eval()'d code(1): DailyGame->getGameName('New_???????????...')
+#3 D:\workshop\YII\framework\base\CComponent.php(607): eval()
+#4 D:\workshop\YII\framework\zii\widgets\grid\CDataColumn.php(132): CComponent->evaluateExpression('DailyGame::mode...', Array)
+#5 D:\workshop\YII\framework\zii\widgets\grid\CGridColumn.php(145): CDataColumn->renderDataCellContent(0, Object(DailyGame))
+#6 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(546): CGridColumn->renderDataCell(0)
+#7 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(517): CGridView->renderTableRow(0)
+#8 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(427): CGridView->renderTableBody()
+#9 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(161): CGridView->renderItems()
+#10 [internal function]: CBaseListView->renderSection(Array)
+#11 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(144): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#12 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(129): CBaseListView->renderContent()
+#13 D:\workshop\YII\framework\web\CBaseController.php(174): CBaseListView->run()
+#14 D:\workshop\ydc\protected\views\dailyGame\admin.php(63): CBaseController->widget('zii.widgets.gri...', Array)
+#15 D:\workshop\YII\framework\web\CBaseController.php(127): require('D:\workshop\ydc...')
+#16 D:\workshop\YII\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\workshop\ydc...', Array, true)
+#17 D:\workshop\YII\framework\web\CController.php(870): CBaseController->renderFile('D:\workshop\ydc...', Array, true)
+#18 D:\workshop\YII\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#19 D:\workshop\ydc\protected\controllers\DailyGameController.php(143): CController->render('admin', Array)
+#20 D:\workshop\YII\framework\web\actions\CInlineAction.php(50): DailyGameController->actionAdmin()
+#21 D:\workshop\YII\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#22 D:\workshop\YII\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#23 D:\workshop\YII\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#24 D:\workshop\YII\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#25 D:\workshop\YII\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#26 D:\workshop\YII\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#27 D:\workshop\YII\framework\web\CController.php(292): CFilterChain->run()
+#28 D:\workshop\YII\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#29 D:\workshop\YII\framework\web\CWebApplication.php(283): CController->run('admin')
+#30 D:\workshop\YII\framework\web\CWebApplication.php(142): CWebApplication->runController('dailygame/admin')
+#31 D:\workshop\YII\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#32 D:\workshop\ydc\index.php(13): CApplication->run()
+#33 {main}
+REQUEST_URI=/ydc/index.php?r=dailygame/admin
+HTTP_REFERER=http://localhost/ydc/index.php?r=dailycash/admin
+---
+2012/11/30 06:19:44 [error] [exception.CException] exception 'CException' with message 'Property "DailyGame.New_幸运大转盘" is not defined.' in D:\workshop\YII\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\workshop\YII\framework\db\ar\CActiveRecord.php(144): CComponent->__get('New_???????????...')
+#1 D:\workshop\ydc\protected\models\DailyGame.php(123): CActiveRecord->__get('New_???????????...')
+#2 D:\workshop\YII\framework\base\CComponent.php(607) : eval()'d code(1): DailyGame->getGameName('New_???????????...')
+#3 D:\workshop\YII\framework\base\CComponent.php(607): eval()
+#4 D:\workshop\YII\framework\zii\widgets\grid\CDataColumn.php(132): CComponent->evaluateExpression('DailyGame::mode...', Array)
+#5 D:\workshop\YII\framework\zii\widgets\grid\CGridColumn.php(145): CDataColumn->renderDataCellContent(0, Object(DailyGame))
+#6 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(546): CGridColumn->renderDataCell(0)
+#7 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(517): CGridView->renderTableRow(0)
+#8 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(427): CGridView->renderTableBody()
+#9 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(161): CGridView->renderItems()
+#10 [internal function]: CBaseListView->renderSection(Array)
+#11 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(144): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#12 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(129): CBaseListView->renderContent()
+#13 D:\workshop\YII\framework\web\CBaseController.php(174): CBaseListView->run()
+#14 D:\workshop\ydc\protected\views\dailyGame\admin.php(63): CBaseController->widget('zii.widgets.gri...', Array)
+#15 D:\workshop\YII\framework\web\CBaseController.php(127): require('D:\workshop\ydc...')
+#16 D:\workshop\YII\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\workshop\ydc...', Array, true)
+#17 D:\workshop\YII\framework\web\CController.php(870): CBaseController->renderFile('D:\workshop\ydc...', Array, true)
+#18 D:\workshop\YII\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#19 D:\workshop\ydc\protected\controllers\DailyGameController.php(143): CController->render('admin', Array)
+#20 D:\workshop\YII\framework\web\actions\CInlineAction.php(50): DailyGameController->actionAdmin()
+#21 D:\workshop\YII\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#22 D:\workshop\YII\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#23 D:\workshop\YII\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#24 D:\workshop\YII\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#25 D:\workshop\YII\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#26 D:\workshop\YII\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#27 D:\workshop\YII\framework\web\CController.php(292): CFilterChain->run()
+#28 D:\workshop\YII\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#29 D:\workshop\YII\framework\web\CWebApplication.php(283): CController->run('admin')
+#30 D:\workshop\YII\framework\web\CWebApplication.php(142): CWebApplication->runController('dailygame/admin')
+#31 D:\workshop\YII\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#32 D:\workshop\ydc\index.php(13): CApplication->run()
+#33 {main}
+REQUEST_URI=/ydc/index.php?r=dailygame/admin
+HTTP_REFERER=http://localhost/ydc/index.php?r=dailycash/admin
+---
+2012/11/30 06:19:45 [error] [exception.CException] exception 'CException' with message 'Property "DailyGame.New_幸运大转盘" is not defined.' in D:\workshop\YII\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\workshop\YII\framework\db\ar\CActiveRecord.php(144): CComponent->__get('New_???????????...')
+#1 D:\workshop\ydc\protected\models\DailyGame.php(123): CActiveRecord->__get('New_???????????...')
+#2 D:\workshop\YII\framework\base\CComponent.php(607) : eval()'d code(1): DailyGame->getGameName('New_???????????...')
+#3 D:\workshop\YII\framework\base\CComponent.php(607): eval()
+#4 D:\workshop\YII\framework\zii\widgets\grid\CDataColumn.php(132): CComponent->evaluateExpression('DailyGame::mode...', Array)
+#5 D:\workshop\YII\framework\zii\widgets\grid\CGridColumn.php(145): CDataColumn->renderDataCellContent(0, Object(DailyGame))
+#6 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(546): CGridColumn->renderDataCell(0)
+#7 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(517): CGridView->renderTableRow(0)
+#8 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(427): CGridView->renderTableBody()
+#9 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(161): CGridView->renderItems()
+#10 [internal function]: CBaseListView->renderSection(Array)
+#11 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(144): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#12 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(129): CBaseListView->renderContent()
+#13 D:\workshop\YII\framework\web\CBaseController.php(174): CBaseListView->run()
+#14 D:\workshop\ydc\protected\views\dailyGame\admin.php(63): CBaseController->widget('zii.widgets.gri...', Array)
+#15 D:\workshop\YII\framework\web\CBaseController.php(127): require('D:\workshop\ydc...')
+#16 D:\workshop\YII\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\workshop\ydc...', Array, true)
+#17 D:\workshop\YII\framework\web\CController.php(870): CBaseController->renderFile('D:\workshop\ydc...', Array, true)
+#18 D:\workshop\YII\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#19 D:\workshop\ydc\protected\controllers\DailyGameController.php(143): CController->render('admin', Array)
+#20 D:\workshop\YII\framework\web\actions\CInlineAction.php(50): DailyGameController->actionAdmin()
+#21 D:\workshop\YII\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#22 D:\workshop\YII\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#23 D:\workshop\YII\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#24 D:\workshop\YII\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#25 D:\workshop\YII\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#26 D:\workshop\YII\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#27 D:\workshop\YII\framework\web\CController.php(292): CFilterChain->run()
+#28 D:\workshop\YII\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#29 D:\workshop\YII\framework\web\CWebApplication.php(283): CController->run('admin')
+#30 D:\workshop\YII\framework\web\CWebApplication.php(142): CWebApplication->runController('dailygame/admin')
+#31 D:\workshop\YII\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#32 D:\workshop\ydc\index.php(13): CApplication->run()
+#33 {main}
+REQUEST_URI=/ydc/index.php?r=dailygame/admin
+HTTP_REFERER=http://localhost/ydc/index.php?r=dailycash/admin
+---
+2012/11/30 06:26:57 [error] [exception.CException] exception 'CException' with message 'Property "DailyGame.New_幸运大转盘" is not defined.' in D:\workshop\YII\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\workshop\YII\framework\db\ar\CActiveRecord.php(144): CComponent->__get('New_???????????...')
+#1 D:\workshop\ydc\protected\models\DailyGame.php(123): CActiveRecord->__get('New_???????????...')
+#2 D:\workshop\YII\framework\base\CComponent.php(607) : eval()'d code(1): DailyGame->getGameName('New_???????????...')
+#3 D:\workshop\YII\framework\base\CComponent.php(607): eval()
+#4 D:\workshop\YII\framework\zii\widgets\grid\CDataColumn.php(132): CComponent->evaluateExpression('DailyGame::mode...', Array)
+#5 D:\workshop\YII\framework\zii\widgets\grid\CGridColumn.php(145): CDataColumn->renderDataCellContent(0, Object(DailyGame))
+#6 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(546): CGridColumn->renderDataCell(0)
+#7 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(517): CGridView->renderTableRow(0)
+#8 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(427): CGridView->renderTableBody()
+#9 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(161): CGridView->renderItems()
+#10 [internal function]: CBaseListView->renderSection(Array)
+#11 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(144): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#12 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(129): CBaseListView->renderContent()
+#13 D:\workshop\YII\framework\web\CBaseController.php(174): CBaseListView->run()
+#14 D:\workshop\ydc\protected\views\dailyGame\admin.php(63): CBaseController->widget('zii.widgets.gri...', Array)
+#15 D:\workshop\YII\framework\web\CBaseController.php(127): require('D:\workshop\ydc...')
+#16 D:\workshop\YII\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\workshop\ydc...', Array, true)
+#17 D:\workshop\YII\framework\web\CController.php(870): CBaseController->renderFile('D:\workshop\ydc...', Array, true)
+#18 D:\workshop\YII\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#19 D:\workshop\ydc\protected\controllers\DailyGameController.php(143): CController->render('admin', Array)
+#20 D:\workshop\YII\framework\web\actions\CInlineAction.php(50): DailyGameController->actionAdmin()
+#21 D:\workshop\YII\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#22 D:\workshop\YII\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#23 D:\workshop\YII\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#24 D:\workshop\YII\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#25 D:\workshop\YII\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#26 D:\workshop\YII\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#27 D:\workshop\YII\framework\web\CController.php(292): CFilterChain->run()
+#28 D:\workshop\YII\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#29 D:\workshop\YII\framework\web\CWebApplication.php(283): CController->run('admin')
+#30 D:\workshop\YII\framework\web\CWebApplication.php(142): CWebApplication->runController('dailygame/admin')
+#31 D:\workshop\YII\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#32 D:\workshop\ydc\index.php(13): CApplication->run()
+#33 {main}
+REQUEST_URI=/ydc/index.php?r=dailygame/admin
+HTTP_REFERER=http://localhost/ydc/index.php?r=gpgamecfg/admin
+---
+2012/11/30 06:35:39 [error] [exception.CException] exception 'CException' with message 'Property "DailyGame.l_type_id" is not defined.' in D:\workshop\YII\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\workshop\YII\framework\db\ar\CActiveRecord.php(144): CComponent->__get('l_type_id')
+#1 D:\workshop\YII\framework\web\helpers\CHtml.php(1809): CActiveRecord->__get('l_type_id')
+#2 D:\workshop\YII\framework\web\helpers\CHtml.php(1772): CHtml::value(Object(DailyGame), 'l_type_id')
+#3 D:\workshop\ydc\protected\models\gpGameCfg.php(101): CHtml::listData(Array, 'l_type_id', 'l_game_name')
+#4 D:\workshop\ydc\protected\views\dailyGame\admin.php(52): gpGameCfg->getGameNameList()
+#5 D:\workshop\YII\framework\web\CBaseController.php(127): require('D:\workshop\ydc...')
+#6 D:\workshop\YII\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\workshop\ydc...', Array, true)
+#7 D:\workshop\YII\framework\web\CController.php(870): CBaseController->renderFile('D:\workshop\ydc...', Array, true)
+#8 D:\workshop\YII\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#9 D:\workshop\ydc\protected\controllers\DailyGameController.php(143): CController->render('admin', Array)
+#10 D:\workshop\YII\framework\web\actions\CInlineAction.php(50): DailyGameController->actionAdmin()
+#11 D:\workshop\YII\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 D:\workshop\YII\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 D:\workshop\YII\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 D:\workshop\YII\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 D:\workshop\YII\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 D:\workshop\YII\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 D:\workshop\YII\framework\web\CController.php(292): CFilterChain->run()
+#18 D:\workshop\YII\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 D:\workshop\YII\framework\web\CWebApplication.php(283): CController->run('admin')
+#20 D:\workshop\YII\framework\web\CWebApplication.php(142): CWebApplication->runController('dailygame/admin')
+#21 D:\workshop\YII\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 D:\workshop\ydc\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/ydc/index.php?r=dailygame/admin
+HTTP_REFERER=http://localhost/ydc/index.php?r=gpgamecfg/admin
+---
+2012/11/30 06:41:31 [error] [exception.CException] exception 'CException' with message 'Property "gpGameCfg." is not defined.' in D:\workshop\YII\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\workshop\YII\framework\db\ar\CActiveRecord.php(144): CComponent->__get('')
+#1 D:\workshop\ydc\protected\models\gpGameCfg.php(106): CActiveRecord->__get('')
+#2 D:\workshop\YII\framework\base\CComponent.php(607) : eval()'d code(1): gpGameCfg->getGameName('246')
+#3 D:\workshop\YII\framework\base\CComponent.php(607): eval()
+#4 D:\workshop\YII\framework\zii\widgets\grid\CDataColumn.php(132): CComponent->evaluateExpression('gpGameCfg::mode...', Array)
+#5 D:\workshop\YII\framework\zii\widgets\grid\CGridColumn.php(145): CDataColumn->renderDataCellContent(0, Object(DailyGame))
+#6 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(546): CGridColumn->renderDataCell(0)
+#7 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(517): CGridView->renderTableRow(0)
+#8 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(427): CGridView->renderTableBody()
+#9 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(161): CGridView->renderItems()
+#10 [internal function]: CBaseListView->renderSection(Array)
+#11 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(144): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#12 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(129): CBaseListView->renderContent()
+#13 D:\workshop\YII\framework\web\CBaseController.php(174): CBaseListView->run()
+#14 D:\workshop\ydc\protected\views\dailyGame\admin.php(63): CBaseController->widget('zii.widgets.gri...', Array)
+#15 D:\workshop\YII\framework\web\CBaseController.php(127): require('D:\workshop\ydc...')
+#16 D:\workshop\YII\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\workshop\ydc...', Array, true)
+#17 D:\workshop\YII\framework\web\CController.php(870): CBaseController->renderFile('D:\workshop\ydc...', Array, true)
+#18 D:\workshop\YII\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#19 D:\workshop\ydc\protected\controllers\DailyGameController.php(143): CController->render('admin', Array)
+#20 D:\workshop\YII\framework\web\actions\CInlineAction.php(50): DailyGameController->actionAdmin()
+#21 D:\workshop\YII\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#22 D:\workshop\YII\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#23 D:\workshop\YII\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#24 D:\workshop\YII\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#25 D:\workshop\YII\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#26 D:\workshop\YII\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#27 D:\workshop\YII\framework\web\CController.php(292): CFilterChain->run()
+#28 D:\workshop\YII\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#29 D:\workshop\YII\framework\web\CWebApplication.php(283): CController->run('admin')
+#30 D:\workshop\YII\framework\web\CWebApplication.php(142): CWebApplication->runController('dailygame/admin')
+#31 D:\workshop\YII\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#32 D:\workshop\ydc\index.php(13): CApplication->run()
+#33 {main}
+REQUEST_URI=/ydc/index.php?r=dailygame/admin
+HTTP_REFERER=http://localhost/ydc/index.php?r=gpgamecfg/admin
+---
+2012/11/30 06:41:33 [error] [exception.CException] exception 'CException' with message 'Property "gpGameCfg." is not defined.' in D:\workshop\YII\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\workshop\YII\framework\db\ar\CActiveRecord.php(144): CComponent->__get('')
+#1 D:\workshop\ydc\protected\models\gpGameCfg.php(106): CActiveRecord->__get('')
+#2 D:\workshop\YII\framework\base\CComponent.php(607) : eval()'d code(1): gpGameCfg->getGameName('246')
+#3 D:\workshop\YII\framework\base\CComponent.php(607): eval()
+#4 D:\workshop\YII\framework\zii\widgets\grid\CDataColumn.php(132): CComponent->evaluateExpression('gpGameCfg::mode...', Array)
+#5 D:\workshop\YII\framework\zii\widgets\grid\CGridColumn.php(145): CDataColumn->renderDataCellContent(0, Object(DailyGame))
+#6 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(546): CGridColumn->renderDataCell(0)
+#7 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(517): CGridView->renderTableRow(0)
+#8 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(427): CGridView->renderTableBody()
+#9 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(161): CGridView->renderItems()
+#10 [internal function]: CBaseListView->renderSection(Array)
+#11 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(144): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#12 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(129): CBaseListView->renderContent()
+#13 D:\workshop\YII\framework\web\CBaseController.php(174): CBaseListView->run()
+#14 D:\workshop\ydc\protected\views\dailyGame\admin.php(63): CBaseController->widget('zii.widgets.gri...', Array)
+#15 D:\workshop\YII\framework\web\CBaseController.php(127): require('D:\workshop\ydc...')
+#16 D:\workshop\YII\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\workshop\ydc...', Array, true)
+#17 D:\workshop\YII\framework\web\CController.php(870): CBaseController->renderFile('D:\workshop\ydc...', Array, true)
+#18 D:\workshop\YII\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#19 D:\workshop\ydc\protected\controllers\DailyGameController.php(143): CController->render('admin', Array)
+#20 D:\workshop\YII\framework\web\actions\CInlineAction.php(50): DailyGameController->actionAdmin()
+#21 D:\workshop\YII\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#22 D:\workshop\YII\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#23 D:\workshop\YII\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#24 D:\workshop\YII\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#25 D:\workshop\YII\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#26 D:\workshop\YII\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#27 D:\workshop\YII\framework\web\CController.php(292): CFilterChain->run()
+#28 D:\workshop\YII\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#29 D:\workshop\YII\framework\web\CWebApplication.php(283): CController->run('admin')
+#30 D:\workshop\YII\framework\web\CWebApplication.php(142): CWebApplication->runController('dailygame/admin')
+#31 D:\workshop\YII\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#32 D:\workshop\ydc\index.php(13): CApplication->run()
+#33 {main}
+REQUEST_URI=/ydc/index.php?r=dailygame/admin
+HTTP_REFERER=http://localhost/ydc/index.php?r=gpgamecfg/admin
+---
+2012/11/30 06:42:46 [error] [exception.CException] exception 'CException' with message 'Property "gpGameCfg." is not defined.' in D:\workshop\YII\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\workshop\YII\framework\db\ar\CActiveRecord.php(144): CComponent->__get('')
+#1 D:\workshop\ydc\protected\models\gpGameCfg.php(106): CActiveRecord->__get('')
+#2 D:\workshop\YII\framework\base\CComponent.php(607) : eval()'d code(1): gpGameCfg->getGameName('246')
+#3 D:\workshop\YII\framework\base\CComponent.php(607): eval()
+#4 D:\workshop\YII\framework\zii\widgets\grid\CDataColumn.php(132): CComponent->evaluateExpression('gpGameCfg::mode...', Array)
+#5 D:\workshop\YII\framework\zii\widgets\grid\CGridColumn.php(145): CDataColumn->renderDataCellContent(0, Object(DailyGame))
+#6 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(546): CGridColumn->renderDataCell(0)
+#7 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(517): CGridView->renderTableRow(0)
+#8 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(427): CGridView->renderTableBody()
+#9 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(161): CGridView->renderItems()
+#10 [internal function]: CBaseListView->renderSection(Array)
+#11 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(144): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#12 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(129): CBaseListView->renderContent()
+#13 D:\workshop\YII\framework\web\CBaseController.php(174): CBaseListView->run()
+#14 D:\workshop\ydc\protected\views\dailyGame\admin.php(64): CBaseController->widget('zii.widgets.gri...', Array)
+#15 D:\workshop\YII\framework\web\CBaseController.php(127): require('D:\workshop\ydc...')
+#16 D:\workshop\YII\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\workshop\ydc...', Array, true)
+#17 D:\workshop\YII\framework\web\CController.php(870): CBaseController->renderFile('D:\workshop\ydc...', Array, true)
+#18 D:\workshop\YII\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#19 D:\workshop\ydc\protected\controllers\DailyGameController.php(143): CController->render('admin', Array)
+#20 D:\workshop\YII\framework\web\actions\CInlineAction.php(50): DailyGameController->actionAdmin()
+#21 D:\workshop\YII\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#22 D:\workshop\YII\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#23 D:\workshop\YII\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#24 D:\workshop\YII\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#25 D:\workshop\YII\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#26 D:\workshop\YII\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#27 D:\workshop\YII\framework\web\CController.php(292): CFilterChain->run()
+#28 D:\workshop\YII\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#29 D:\workshop\YII\framework\web\CWebApplication.php(283): CController->run('admin')
+#30 D:\workshop\YII\framework\web\CWebApplication.php(142): CWebApplication->runController('dailygame/admin')
+#31 D:\workshop\YII\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#32 D:\workshop\ydc\index.php(13): CApplication->run()
+#33 {main}
+REQUEST_URI=/ydc/index.php?r=dailygame/admin
+HTTP_REFERER=http://localhost/ydc/index.php?r=gpgamecfg/admin
+---
+2012/11/30 06:42:47 [error] [exception.CException] exception 'CException' with message 'Property "gpGameCfg." is not defined.' in D:\workshop\YII\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\workshop\YII\framework\db\ar\CActiveRecord.php(144): CComponent->__get('')
+#1 D:\workshop\ydc\protected\models\gpGameCfg.php(106): CActiveRecord->__get('')
+#2 D:\workshop\YII\framework\base\CComponent.php(607) : eval()'d code(1): gpGameCfg->getGameName('246')
+#3 D:\workshop\YII\framework\base\CComponent.php(607): eval()
+#4 D:\workshop\YII\framework\zii\widgets\grid\CDataColumn.php(132): CComponent->evaluateExpression('gpGameCfg::mode...', Array)
+#5 D:\workshop\YII\framework\zii\widgets\grid\CGridColumn.php(145): CDataColumn->renderDataCellContent(0, Object(DailyGame))
+#6 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(546): CGridColumn->renderDataCell(0)
+#7 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(517): CGridView->renderTableRow(0)
+#8 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(427): CGridView->renderTableBody()
+#9 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(161): CGridView->renderItems()
+#10 [internal function]: CBaseListView->renderSection(Array)
+#11 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(144): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#12 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(129): CBaseListView->renderContent()
+#13 D:\workshop\YII\framework\web\CBaseController.php(174): CBaseListView->run()
+#14 D:\workshop\ydc\protected\views\dailyGame\admin.php(64): CBaseController->widget('zii.widgets.gri...', Array)
+#15 D:\workshop\YII\framework\web\CBaseController.php(127): require('D:\workshop\ydc...')
+#16 D:\workshop\YII\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\workshop\ydc...', Array, true)
+#17 D:\workshop\YII\framework\web\CController.php(870): CBaseController->renderFile('D:\workshop\ydc...', Array, true)
+#18 D:\workshop\YII\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#19 D:\workshop\ydc\protected\controllers\DailyGameController.php(143): CController->render('admin', Array)
+#20 D:\workshop\YII\framework\web\actions\CInlineAction.php(50): DailyGameController->actionAdmin()
+#21 D:\workshop\YII\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#22 D:\workshop\YII\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#23 D:\workshop\YII\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#24 D:\workshop\YII\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#25 D:\workshop\YII\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#26 D:\workshop\YII\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#27 D:\workshop\YII\framework\web\CController.php(292): CFilterChain->run()
+#28 D:\workshop\YII\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#29 D:\workshop\YII\framework\web\CWebApplication.php(283): CController->run('admin')
+#30 D:\workshop\YII\framework\web\CWebApplication.php(142): CWebApplication->runController('dailygame/admin')
+#31 D:\workshop\YII\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#32 D:\workshop\ydc\index.php(13): CApplication->run()
+#33 {main}
+REQUEST_URI=/ydc/index.php?r=dailygame/admin
+HTTP_REFERER=http://localhost/ydc/index.php?r=gpgamecfg/admin
+---
+2012/11/30 07:02:14 [error] [exception.CException] exception 'CException' with message 'Property "DailyGame." is not defined.' in D:\workshop\YII\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\workshop\YII\framework\db\ar\CActiveRecord.php(144): CComponent->__get('')
+#1 D:\workshop\YII\framework\web\helpers\CHtml.php(1809): CActiveRecord->__get('')
+#2 D:\workshop\YII\framework\web\helpers\CHtml.php(1773): CHtml::value(Object(DailyGame), NULL)
+#3 D:\workshop\ydc\protected\models\DailyGame.php(124): CHtml::listData(Array, 'l_game_name')
+#4 D:\workshop\ydc\protected\views\dailyGame\admin.php(52): DailyGame->getGameNameList()
+#5 D:\workshop\YII\framework\web\CBaseController.php(127): require('D:\workshop\ydc...')
+#6 D:\workshop\YII\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\workshop\ydc...', Array, true)
+#7 D:\workshop\YII\framework\web\CController.php(870): CBaseController->renderFile('D:\workshop\ydc...', Array, true)
+#8 D:\workshop\YII\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#9 D:\workshop\ydc\protected\controllers\DailyGameController.php(143): CController->render('admin', Array)
+#10 D:\workshop\YII\framework\web\actions\CInlineAction.php(50): DailyGameController->actionAdmin()
+#11 D:\workshop\YII\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 D:\workshop\YII\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 D:\workshop\YII\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 D:\workshop\YII\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 D:\workshop\YII\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 D:\workshop\YII\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 D:\workshop\YII\framework\web\CController.php(292): CFilterChain->run()
+#18 D:\workshop\YII\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 D:\workshop\YII\framework\web\CWebApplication.php(283): CController->run('admin')
+#20 D:\workshop\YII\framework\web\CWebApplication.php(142): CWebApplication->runController('dailygame/admin')
+#21 D:\workshop\YII\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 D:\workshop\ydc\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/ydc/index.php?r=dailygame/admin
+HTTP_REFERER=http://localhost/ydc/index.php?r=gpgamecfg/admin
+---
+2012/11/30 07:02:16 [error] [exception.CException] exception 'CException' with message 'Property "DailyGame." is not defined.' in D:\workshop\YII\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\workshop\YII\framework\db\ar\CActiveRecord.php(144): CComponent->__get('')
+#1 D:\workshop\YII\framework\web\helpers\CHtml.php(1809): CActiveRecord->__get('')
+#2 D:\workshop\YII\framework\web\helpers\CHtml.php(1773): CHtml::value(Object(DailyGame), NULL)
+#3 D:\workshop\ydc\protected\models\DailyGame.php(124): CHtml::listData(Array, 'l_game_name')
+#4 D:\workshop\ydc\protected\views\dailyGame\admin.php(52): DailyGame->getGameNameList()
+#5 D:\workshop\YII\framework\web\CBaseController.php(127): require('D:\workshop\ydc...')
+#6 D:\workshop\YII\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\workshop\ydc...', Array, true)
+#7 D:\workshop\YII\framework\web\CController.php(870): CBaseController->renderFile('D:\workshop\ydc...', Array, true)
+#8 D:\workshop\YII\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#9 D:\workshop\ydc\protected\controllers\DailyGameController.php(143): CController->render('admin', Array)
+#10 D:\workshop\YII\framework\web\actions\CInlineAction.php(50): DailyGameController->actionAdmin()
+#11 D:\workshop\YII\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 D:\workshop\YII\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 D:\workshop\YII\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 D:\workshop\YII\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 D:\workshop\YII\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 D:\workshop\YII\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 D:\workshop\YII\framework\web\CController.php(292): CFilterChain->run()
+#18 D:\workshop\YII\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 D:\workshop\YII\framework\web\CWebApplication.php(283): CController->run('admin')
+#20 D:\workshop\YII\framework\web\CWebApplication.php(142): CWebApplication->runController('dailygame/admin')
+#21 D:\workshop\YII\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 D:\workshop\ydc\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/ydc/index.php?r=dailygame/admin
+HTTP_REFERER=http://localhost/ydc/index.php?r=gpgamecfg/admin
+---
+2012/11/30 07:02:16 [error] [exception.CException] exception 'CException' with message 'Property "DailyGame." is not defined.' in D:\workshop\YII\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\workshop\YII\framework\db\ar\CActiveRecord.php(144): CComponent->__get('')
+#1 D:\workshop\YII\framework\web\helpers\CHtml.php(1809): CActiveRecord->__get('')
+#2 D:\workshop\YII\framework\web\helpers\CHtml.php(1773): CHtml::value(Object(DailyGame), NULL)
+#3 D:\workshop\ydc\protected\models\DailyGame.php(124): CHtml::listData(Array, 'l_game_name')
+#4 D:\workshop\ydc\protected\views\dailyGame\admin.php(52): DailyGame->getGameNameList()
+#5 D:\workshop\YII\framework\web\CBaseController.php(127): require('D:\workshop\ydc...')
+#6 D:\workshop\YII\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\workshop\ydc...', Array, true)
+#7 D:\workshop\YII\framework\web\CController.php(870): CBaseController->renderFile('D:\workshop\ydc...', Array, true)
+#8 D:\workshop\YII\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#9 D:\workshop\ydc\protected\controllers\DailyGameController.php(143): CController->render('admin', Array)
+#10 D:\workshop\YII\framework\web\actions\CInlineAction.php(50): DailyGameController->actionAdmin()
+#11 D:\workshop\YII\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 D:\workshop\YII\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 D:\workshop\YII\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 D:\workshop\YII\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 D:\workshop\YII\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 D:\workshop\YII\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 D:\workshop\YII\framework\web\CController.php(292): CFilterChain->run()
+#18 D:\workshop\YII\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 D:\workshop\YII\framework\web\CWebApplication.php(283): CController->run('admin')
+#20 D:\workshop\YII\framework\web\CWebApplication.php(142): CWebApplication->runController('dailygame/admin')
+#21 D:\workshop\YII\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 D:\workshop\ydc\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/ydc/index.php?r=dailygame/admin
+HTTP_REFERER=http://localhost/ydc/index.php?r=gpgamecfg/admin
+---
+2012/11/30 07:09:30 [error] [exception.CException] exception 'CException' with message 'Property "DailyGame." is not defined.' in D:\workshop\YII\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\workshop\YII\framework\db\ar\CActiveRecord.php(144): CComponent->__get('')
+#1 D:\workshop\ydc\protected\models\DailyGame.php(129): CActiveRecord->__get('')
+#2 D:\workshop\YII\framework\base\CComponent.php(607) : eval()'d code(1): DailyGame->getGameName('246')
+#3 D:\workshop\YII\framework\base\CComponent.php(607): eval()
+#4 D:\workshop\YII\framework\zii\widgets\grid\CDataColumn.php(132): CComponent->evaluateExpression('DailyGame::mode...', Array)
+#5 D:\workshop\YII\framework\zii\widgets\grid\CGridColumn.php(145): CDataColumn->renderDataCellContent(0, Object(DailyGame))
+#6 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(546): CGridColumn->renderDataCell(0)
+#7 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(517): CGridView->renderTableRow(0)
+#8 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(427): CGridView->renderTableBody()
+#9 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(161): CGridView->renderItems()
+#10 [internal function]: CBaseListView->renderSection(Array)
+#11 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(144): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#12 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(129): CBaseListView->renderContent()
+#13 D:\workshop\YII\framework\web\CBaseController.php(174): CBaseListView->run()
+#14 D:\workshop\ydc\protected\views\dailyGame\admin.php(63): CBaseController->widget('zii.widgets.gri...', Array)
+#15 D:\workshop\YII\framework\web\CBaseController.php(127): require('D:\workshop\ydc...')
+#16 D:\workshop\YII\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\workshop\ydc...', Array, true)
+#17 D:\workshop\YII\framework\web\CController.php(870): CBaseController->renderFile('D:\workshop\ydc...', Array, true)
+#18 D:\workshop\YII\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#19 D:\workshop\ydc\protected\controllers\DailyGameController.php(143): CController->render('admin', Array)
+#20 D:\workshop\YII\framework\web\actions\CInlineAction.php(50): DailyGameController->actionAdmin()
+#21 D:\workshop\YII\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#22 D:\workshop\YII\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#23 D:\workshop\YII\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#24 D:\workshop\YII\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#25 D:\workshop\YII\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#26 D:\workshop\YII\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#27 D:\workshop\YII\framework\web\CController.php(292): CFilterChain->run()
+#28 D:\workshop\YII\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#29 D:\workshop\YII\framework\web\CWebApplication.php(283): CController->run('admin')
+#30 D:\workshop\YII\framework\web\CWebApplication.php(142): CWebApplication->runController('dailyGame/admin')
+#31 D:\workshop\YII\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#32 D:\workshop\ydc\index.php(13): CApplication->run()
+#33 {main}
+REQUEST_URI=/ydc/index.php?r=dailyGame/admin
+---
+2012/11/30 07:09:32 [error] [exception.CException] exception 'CException' with message 'Property "DailyGame." is not defined.' in D:\workshop\YII\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\workshop\YII\framework\db\ar\CActiveRecord.php(144): CComponent->__get('')
+#1 D:\workshop\ydc\protected\models\DailyGame.php(129): CActiveRecord->__get('')
+#2 D:\workshop\YII\framework\base\CComponent.php(607) : eval()'d code(1): DailyGame->getGameName('246')
+#3 D:\workshop\YII\framework\base\CComponent.php(607): eval()
+#4 D:\workshop\YII\framework\zii\widgets\grid\CDataColumn.php(132): CComponent->evaluateExpression('DailyGame::mode...', Array)
+#5 D:\workshop\YII\framework\zii\widgets\grid\CGridColumn.php(145): CDataColumn->renderDataCellContent(0, Object(DailyGame))
+#6 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(546): CGridColumn->renderDataCell(0)
+#7 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(517): CGridView->renderTableRow(0)
+#8 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(427): CGridView->renderTableBody()
+#9 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(161): CGridView->renderItems()
+#10 [internal function]: CBaseListView->renderSection(Array)
+#11 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(144): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#12 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(129): CBaseListView->renderContent()
+#13 D:\workshop\YII\framework\web\CBaseController.php(174): CBaseListView->run()
+#14 D:\workshop\ydc\protected\views\dailyGame\admin.php(63): CBaseController->widget('zii.widgets.gri...', Array)
+#15 D:\workshop\YII\framework\web\CBaseController.php(127): require('D:\workshop\ydc...')
+#16 D:\workshop\YII\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\workshop\ydc...', Array, true)
+#17 D:\workshop\YII\framework\web\CController.php(870): CBaseController->renderFile('D:\workshop\ydc...', Array, true)
+#18 D:\workshop\YII\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#19 D:\workshop\ydc\protected\controllers\DailyGameController.php(143): CController->render('admin', Array)
+#20 D:\workshop\YII\framework\web\actions\CInlineAction.php(50): DailyGameController->actionAdmin()
+#21 D:\workshop\YII\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#22 D:\workshop\YII\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#23 D:\workshop\YII\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#24 D:\workshop\YII\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#25 D:\workshop\YII\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#26 D:\workshop\YII\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#27 D:\workshop\YII\framework\web\CController.php(292): CFilterChain->run()
+#28 D:\workshop\YII\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#29 D:\workshop\YII\framework\web\CWebApplication.php(283): CController->run('admin')
+#30 D:\workshop\YII\framework\web\CWebApplication.php(142): CWebApplication->runController('dailyGame/admin')
+#31 D:\workshop\YII\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#32 D:\workshop\ydc\index.php(13): CApplication->run()
+#33 {main}
+REQUEST_URI=/ydc/index.php?r=dailyGame/admin
+---
+2012/11/30 07:16:52 [error] [exception.CException] exception 'CException' with message 'Property "gpGameCfg." is not defined.' in D:\workshop\YII\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\workshop\YII\framework\db\ar\CActiveRecord.php(144): CComponent->__get('')
+#1 D:\workshop\ydc\protected\models\gpGameCfg.php(106): CActiveRecord->__get('')
+#2 D:\workshop\YII\framework\base\CComponent.php(607) : eval()'d code(1): gpGameCfg->getGameName('246')
+#3 D:\workshop\YII\framework\base\CComponent.php(607): eval()
+#4 D:\workshop\YII\framework\zii\widgets\grid\CDataColumn.php(132): CComponent->evaluateExpression('gpGameCfg::mode...', Array)
+#5 D:\workshop\YII\framework\zii\widgets\grid\CGridColumn.php(145): CDataColumn->renderDataCellContent(0, Object(DailyGame))
+#6 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(546): CGridColumn->renderDataCell(0)
+#7 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(517): CGridView->renderTableRow(0)
+#8 D:\workshop\YII\framework\zii\widgets\grid\CGridView.php(427): CGridView->renderTableBody()
+#9 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(161): CGridView->renderItems()
+#10 [internal function]: CBaseListView->renderSection(Array)
+#11 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(144): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#12 D:\workshop\YII\framework\zii\widgets\CBaseListView.php(129): CBaseListView->renderContent()
+#13 D:\workshop\YII\framework\web\CBaseController.php(174): CBaseListView->run()
+#14 D:\workshop\ydc\protected\views\dailyGame\admin.php(63): CBaseController->widget('zii.widgets.gri...', Array)
+#15 D:\workshop\YII\framework\web\CBaseController.php(127): require('D:\workshop\ydc...')
+#16 D:\workshop\YII\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\workshop\ydc...', Array, true)
+#17 D:\workshop\YII\framework\web\CController.php(870): CBaseController->renderFile('D:\workshop\ydc...', Array, true)
+#18 D:\workshop\YII\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#19 D:\workshop\ydc\protected\controllers\DailyGameController.php(143): CController->render('admin', Array)
+#20 D:\workshop\YII\framework\web\actions\CInlineAction.php(50): DailyGameController->actionAdmin()
+#21 D:\workshop\YII\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#22 D:\workshop\YII\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#23 D:\workshop\YII\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#24 D:\workshop\YII\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#25 D:\workshop\YII\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#26 D:\workshop\YII\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#27 D:\workshop\YII\framework\web\CController.php(292): CFilterChain->run()
+#28 D:\workshop\YII\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#29 D:\workshop\YII\framework\web\CWebApplication.php(283): CController->run('admin')
+#30 D:\workshop\YII\framework\web\CWebApplication.php(142): CWebApplication->runController('dailyGame/admin')
+#31 D:\workshop\YII\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#32 D:\workshop\ydc\index.php(13): CApplication->run()
+#33 {main}
+REQUEST_URI=/ydc/index.php?r=dailyGame/admin
+---
+2012/11/30 16:26:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dailycash/admin".' in /web/ydc/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('dailycash/admin')
+#1 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /web/ydc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ydc/index.php?r=dailycash/admin
+HTTP_REFERER=http://10.48.179.107/ydc/
+---
+2012/11/30 16:26:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dailygame/admin".' in /web/ydc/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('dailygame/admin')
+#1 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /web/ydc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ydc/index.php?r=dailygame/admin
+HTTP_REFERER=http://10.48.179.107/ydc/index.php?r=dailycash/admin
+---
+2012/11/30 16:26:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dailycash/admin".' in /web/ydc/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('dailycash/admin')
+#1 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /web/ydc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ydc/index.php?r=dailycash/admin
+HTTP_REFERER=http://10.48.179.107/ydc/index.php?r=dailygame/admin
+---
+2012/11/30 16:26:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dailygame/admin".' in /web/ydc/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('dailygame/admin')
+#1 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /web/ydc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ydc/index.php?r=dailygame/admin
+HTTP_REFERER=http://10.48.179.107/ydc/index.php?r=dailycash/admin
+---
+2012/11/30 16:27:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dailygame/admin".' in /web/ydc/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('dailygame/admin')
+#1 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /web/ydc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ydc/index.php?r=dailygame/admin
+HTTP_REFERER=http://10.48.179.107/ydc/index.php?r=dailycash/admin
+---
+2012/11/30 16:27:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dailygame/admin".' in /web/ydc/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('dailygame/admin')
+#1 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /web/ydc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ydc/index.php?r=dailygame/admin
+HTTP_REFERER=http://10.48.179.107/ydc/index.php?r=dailygame/admin
+---
+2012/11/30 16:27:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dailycash/admin".' in /web/ydc/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('dailycash/admin')
+#1 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /web/ydc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ydc/index.php?r=dailycash/admin
+HTTP_REFERER=http://10.48.179.107/ydc/index.php?r=dailygame/admin
+---
+2012/11/30 16:28:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dailycash/admin".' in /web/ydc/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('dailycash/admin')
+#1 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /web/ydc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ydc/index.php?r=dailycash/admin
+HTTP_REFERER=http://10.48.179.107/ydc/index.php?r=dailygame/admin
+---
+2012/11/30 16:28:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dailycash/admin".' in /web/ydc/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('dailycash/admin')
+#1 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /web/ydc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ydc/index.php?r=dailycash/admin
+HTTP_REFERER=http://10.48.179.107/ydc/index.php?r=dailycash/admin
+---
+2012/11/30 16:28:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dailycash/admin".' in /web/ydc/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('dailycash/admin')
+#1 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /web/ydc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ydc/index.php?r=dailycash/admin
+HTTP_REFERER=http://10.48.179.107/ydc/index.php?r=dailycash/admin
+---
+2012/11/30 16:28:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dailycash/admin".' in /web/ydc/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('dailycash/admin')
+#1 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /web/ydc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ydc/index.php?r=dailycash/admin
+HTTP_REFERER=http://10.48.179.107/ydc/index.php?r=dailycash/admin
+---
+2012/11/30 16:28:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dailycash/admin".' in /web/ydc/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('dailycash/admin')
+#1 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /web/ydc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ydc/index.php?r=dailycash/admin
+HTTP_REFERER=http://10.48.179.107/ydc/index.php?r=dailycash/admin
+---
+2012/11/30 16:28:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dailygame/admin".' in /web/ydc/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('dailygame/admin')
+#1 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /web/ydc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ydc/index.php?r=dailygame/admin
+HTTP_REFERER=http://10.48.179.107/ydc/index.php?r=dailycash/admin
+---
+2012/11/30 16:28:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dailycash/admin".' in /web/ydc/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('dailycash/admin')
+#1 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /web/ydc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ydc/index.php?r=dailycash/admin
+HTTP_REFERER=http://10.48.179.107/ydc/index.php?r=dailygame/admin
+---
+2012/11/30 16:29:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dailycash/admin".' in /web/ydc/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('dailycash/admin')
+#1 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /web/ydc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ydc/index.php?r=dailycash/admin
+HTTP_REFERER=http://10.48.179.107/ydc/index.php?r=dailycash/admin
+---
+2012/11/30 16:29:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dailycash/admin".' in /web/ydc/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('dailycash/admin')
+#1 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /web/ydc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ydc/index.php?r=dailycash/admin
+HTTP_REFERER=http://10.48.179.107/ydc/index.php?r=dailycash/admin
+---
+2012/11/30 16:29:14 [error] [exception.CException] exception 'CException' with message 'CAssetManager.basePath "/web/ydc/assets" is invalid. Please make sure the directory exists and is writable by the Web server process.' in /web/ydc/framework/web/CAssetManager.php:128
+Stack trace:
+#0 /web/ydc/framework/web/CAssetManager.php(113): CAssetManager->setBasePath('/web/ydc/assets')
+#1 /web/ydc/framework/web/CAssetManager.php(235): CAssetManager->getBasePath()
+#2 /web/ydc/framework/gii/GiiModule.php(143): CAssetManager->publish('/web/ydc/framew...')
+#3 /web/ydc/framework/base/CComponent.php(112): GiiModule->getAssetsUrl()
+#4 /web/ydc/framework/base/CModule.php(106): CComponent->__get('assetsUrl')
+#5 /web/ydc/framework/gii/views/layouts/main.php(5): CModule->__get('assetsUrl')
+#6 /web/ydc/framework/web/CBaseController.php(127): require('/web/ydc/framew...')
+#7 /web/ydc/framework/web/CBaseController.php(96): CBaseController->renderInternal('/web/ydc/framew...', Array, true)
+#8 /web/ydc/framework/web/widgets/CContentDecorator.php(77): CBaseController->renderFile('/web/ydc/framew...', Array, true)
+#9 /web/ydc/framework/web/widgets/CContentDecorator.php(55): CContentDecorator->decorate('<div class="con...')
+#10 /web/ydc/framework/web/widgets/COutputProcessor.php(45): CContentDecorator->processOutput('<div class="con...')
+#11 /web/ydc/framework/web/CBaseController.php(207): COutputProcessor->run()
+#12 /web/ydc/framework/web/CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#13 /web/ydc/framework/gii/views/layouts/column1.php(7): CBaseController->endContent()
+#14 /web/ydc/framework/web/CBaseController.php(127): require('/web/ydc/framew...')
+#15 /web/ydc/framework/web/CBaseController.php(96): CBaseController->renderInternal('/web/ydc/framew...', Array, true)
+#16 /web/ydc/framework/web/CController.php(785): CBaseController->renderFile('/web/ydc/framew...', Array, true)
+#17 /web/ydc/framework/gii/controllers/DefaultController.php(47): CController->render('login', Array)
+#18 /web/ydc/framework/web/actions/CInlineAction.php(50): DefaultController->actionLogin()
+#19 /web/ydc/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#20 /web/ydc/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#21 /web/ydc/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /web/ydc/framework/web/CWebApplication.php(283): CController->run('login')
+#23 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('gii/default/log...')
+#24 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#25 /web/ydc/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/ydc/index.php?r=gii/default/login
+---
+2012/11/30 16:31:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dailycash/admin".' in /web/ydc/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('dailycash/admin')
+#1 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /web/ydc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ydc/index.php?r=dailycash/admin
+HTTP_REFERER=http://10.48.179.107/ydc/index.php
+---
+2012/11/30 16:31:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dailygame/admin".' in /web/ydc/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('dailygame/admin')
+#1 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /web/ydc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ydc/index.php?r=dailygame/admin
+HTTP_REFERER=http://10.48.179.107/ydc/index.php?r=dailycash/admin
+---
+2012/11/30 16:31:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dailycash/admin".' in /web/ydc/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('dailycash/admin')
+#1 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /web/ydc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ydc/index.php?r=dailycash/admin
+HTTP_REFERER=http://10.48.179.107/ydc/index.php?r=dailygame/admin
+---
+2012/11/30 16:32:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dailycash/admin".' in /web/ydc/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('dailycash/admin')
+#1 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /web/ydc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ydc/index.php?r=dailycash/admin
+HTTP_REFERER=http://10.48.179.107/ydc/index.php?r=dailygame/admin
+---
+2012/11/30 16:32:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dailycash/admin".' in /web/ydc/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('dailycash/admin')
+#1 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /web/ydc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ydc/index.php?r=dailycash/admin
+HTTP_REFERER=http://10.48.179.107/ydc/index.php?r=dailycash/admin
+---
+2012/11/30 16:32:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dailygame/admin".' in /web/ydc/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('dailygame/admin')
+#1 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /web/ydc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ydc/index.php?r=dailygame/admin
+HTTP_REFERER=http://10.48.179.107/ydc/index.php?r=dailycash/admin
+---
+2012/11/30 16:32:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dailycash/admin".' in /web/ydc/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('dailycash/admin')
+#1 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /web/ydc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ydc/index.php?r=dailycash/admin
+HTTP_REFERER=http://10.48.179.107/ydc/index.php?r=dailygame/admin
+---
+2012/11/30 16:33:17 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'test.gp_data_daily_cash' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `gp_data_daily_cash`.
+in /web/ydc/protected/controllers/DailyCashController.php (136)
+in /web/ydc/index.php (13)
+2012/11/30 16:33:17 [error] [exception.CDbException] exception 'CDbException' with message 'The table "gp_data_daily_cash" for active record class "DailyCash" cannot be found in the database.' in /web/ydc/framework/db/ar/CActiveRecord.php:2312
+Stack trace:
+#0 /web/ydc/framework/db/ar/CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(DailyCash))
+#1 /web/ydc/framework/db/ar/CActiveRecord.php(403): CActiveRecord::model('DailyCash')
+#2 /web/ydc/framework/db/ar/CActiveRecord.php(78): CActiveRecord->getMetaData()
+#3 /web/ydc/protected/controllers/DailyCashController.php(136): CActiveRecord->__construct('search')
+#4 /web/ydc/framework/web/actions/CInlineAction.php(50): DailyCashController->actionAdmin()
+#5 /web/ydc/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#6 /web/ydc/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 /web/ydc/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /web/ydc/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 /web/ydc/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 /web/ydc/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 /web/ydc/framework/web/CController.php(292): CFilterChain->run()
+#12 /web/ydc/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /web/ydc/framework/web/CWebApplication.php(283): CController->run('admin')
+#14 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('dailyCash/admin')
+#15 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /web/ydc/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/ydc/index.php?r=dailyCash/admin
+HTTP_REFERER=http://10.48.179.107/ydc/index.php?r=site/login
+---
+2012/11/30 17:15:17 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'test.gp_data_daily_cash' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `gp_data_daily_cash`.
+in /web/ydc/protected/controllers/DailyCashController.php (136)
+in /web/ydc/index.php (13)
+2012/11/30 17:15:17 [error] [exception.CDbException] exception 'CDbException' with message 'The table "gp_data_daily_cash" for active record class "DailyCash" cannot be found in the database.' in /web/ydc/framework/db/ar/CActiveRecord.php:2312
+Stack trace:
+#0 /web/ydc/framework/db/ar/CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(DailyCash))
+#1 /web/ydc/framework/db/ar/CActiveRecord.php(403): CActiveRecord::model('DailyCash')
+#2 /web/ydc/framework/db/ar/CActiveRecord.php(78): CActiveRecord->getMetaData()
+#3 /web/ydc/protected/controllers/DailyCashController.php(136): CActiveRecord->__construct('search')
+#4 /web/ydc/framework/web/actions/CInlineAction.php(50): DailyCashController->actionAdmin()
+#5 /web/ydc/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#6 /web/ydc/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 /web/ydc/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /web/ydc/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 /web/ydc/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 /web/ydc/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 /web/ydc/framework/web/CController.php(292): CFilterChain->run()
+#12 /web/ydc/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /web/ydc/framework/web/CWebApplication.php(283): CController->run('admin')
+#14 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('dailyCash/admin')
+#15 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /web/ydc/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/ydc/index.php?r=dailyCash/admin
+HTTP_REFERER=http://10.48.179.107/ydc/index.php?r=site/login
+---
+2012/11/30 17:15:20 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'test.gp_data_daily_cash' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `gp_data_daily_cash`.
+in /web/ydc/protected/controllers/DailyCashController.php (136)
+in /web/ydc/index.php (13)
+2012/11/30 17:15:20 [error] [exception.CDbException] exception 'CDbException' with message 'The table "gp_data_daily_cash" for active record class "DailyCash" cannot be found in the database.' in /web/ydc/framework/db/ar/CActiveRecord.php:2312
+Stack trace:
+#0 /web/ydc/framework/db/ar/CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(DailyCash))
+#1 /web/ydc/framework/db/ar/CActiveRecord.php(403): CActiveRecord::model('DailyCash')
+#2 /web/ydc/framework/db/ar/CActiveRecord.php(78): CActiveRecord->getMetaData()
+#3 /web/ydc/protected/controllers/DailyCashController.php(136): CActiveRecord->__construct('search')
+#4 /web/ydc/framework/web/actions/CInlineAction.php(50): DailyCashController->actionAdmin()
+#5 /web/ydc/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#6 /web/ydc/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 /web/ydc/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /web/ydc/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 /web/ydc/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 /web/ydc/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 /web/ydc/framework/web/CController.php(292): CFilterChain->run()
+#12 /web/ydc/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /web/ydc/framework/web/CWebApplication.php(283): CController->run('admin')
+#14 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('dailyCash/admin')
+#15 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /web/ydc/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/ydc/index.php?r=dailyCash/admin
+HTTP_REFERER=http://10.48.179.107/ydc/index.php?r=site/login
+---
+2012/11/30 17:15:33 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'test.gp_data_daily_cash' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `gp_data_daily_cash`.
+in /web/ydc/protected/controllers/DailyCashController.php (136)
+in /web/ydc/index.php (13)
+2012/11/30 17:15:33 [error] [exception.CDbException] exception 'CDbException' with message 'The table "gp_data_daily_cash" for active record class "DailyCash" cannot be found in the database.' in /web/ydc/framework/db/ar/CActiveRecord.php:2312
+Stack trace:
+#0 /web/ydc/framework/db/ar/CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(DailyCash))
+#1 /web/ydc/framework/db/ar/CActiveRecord.php(403): CActiveRecord::model('DailyCash')
+#2 /web/ydc/framework/db/ar/CActiveRecord.php(78): CActiveRecord->getMetaData()
+#3 /web/ydc/protected/controllers/DailyCashController.php(136): CActiveRecord->__construct('search')
+#4 /web/ydc/framework/web/actions/CInlineAction.php(50): DailyCashController->actionAdmin()
+#5 /web/ydc/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#6 /web/ydc/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 /web/ydc/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /web/ydc/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 /web/ydc/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 /web/ydc/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 /web/ydc/framework/web/CController.php(292): CFilterChain->run()
+#12 /web/ydc/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /web/ydc/framework/web/CWebApplication.php(283): CController->run('admin')
+#14 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('dailyCash/admin')
+#15 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /web/ydc/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/ydc/index.php?r=dailyCash/admin
+---
+2012/11/30 17:15:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dailygame/admin".' in /web/ydc/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('dailygame/admin')
+#1 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /web/ydc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ydc/index.php?r=dailygame/admin
+HTTP_REFERER=http://10.48.179.107/ydc/index.php
+---
+2012/11/30 17:16:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dailygame/admin".' in /web/ydc/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('dailygame/admin')
+#1 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /web/ydc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ydc/index.php?r=dailygame/admin
+HTTP_REFERER=http://10.48.179.107/ydc/index.php
+---
+2012/11/30 17:16:25 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'test.gp_data_daily_game' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `gp_data_daily_game`.
+in /web/ydc/protected/controllers/DailyGameController.php (136)
+in /web/ydc/index.php (13)
+2012/11/30 17:16:25 [error] [exception.CDbException] exception 'CDbException' with message 'The table "gp_data_daily_game" for active record class "DailyGame" cannot be found in the database.' in /web/ydc/framework/db/ar/CActiveRecord.php:2312
+Stack trace:
+#0 /web/ydc/framework/db/ar/CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(DailyGame))
+#1 /web/ydc/framework/db/ar/CActiveRecord.php(403): CActiveRecord::model('DailyGame')
+#2 /web/ydc/framework/db/ar/CActiveRecord.php(78): CActiveRecord->getMetaData()
+#3 /web/ydc/protected/controllers/DailyGameController.php(136): CActiveRecord->__construct('search')
+#4 /web/ydc/framework/web/actions/CInlineAction.php(50): DailyGameController->actionAdmin()
+#5 /web/ydc/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#6 /web/ydc/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 /web/ydc/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /web/ydc/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 /web/ydc/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 /web/ydc/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 /web/ydc/framework/web/CController.php(292): CFilterChain->run()
+#12 /web/ydc/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /web/ydc/framework/web/CWebApplication.php(283): CController->run('admin')
+#14 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('dailyGame/admin')
+#15 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /web/ydc/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/ydc/index.php?r=dailyGame/admin
+HTTP_REFERER=http://10.48.179.107/ydc/index.php?r=dailygame/admin
+---
+2012/11/30 17:17:31 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1044] Access denied for user 'dc'@'10.48.179.%' to database 'gp_platform'' in /web/ydc/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /web/ydc/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /web/ydc/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /web/ydc/framework/base/CModule.php(388): CDbConnection->init()
+#3 /web/ydc/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /web/ydc/framework/db/ar/CActiveRecord.php(624): CApplication->getDb()
+#5 /web/ydc/framework/db/ar/CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 /web/ydc/framework/db/ar/CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(DailyGame))
+#7 /web/ydc/framework/db/ar/CActiveRecord.php(403): CActiveRecord::model('DailyGame')
+#8 /web/ydc/framework/db/ar/CActiveRecord.php(78): CActiveRecord->getMetaData()
+#9 /web/ydc/protected/controllers/DailyGameController.php(136): CActiveRecord->__construct('search')
+#10 /web/ydc/framework/web/actions/CInlineAction.php(50): DailyGameController->actionAdmin()
+#11 /web/ydc/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#12 /web/ydc/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 /web/ydc/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#14 /web/ydc/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 /web/ydc/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 /web/ydc/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 /web/ydc/framework/web/CController.php(292): CFilterChain->run()
+#18 /web/ydc/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 /web/ydc/framework/web/CWebApplication.php(283): CController->run('admin')
+#20 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('dailyGame/admin')
+#21 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#22 /web/ydc/index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/ydc/index.php?r=dailyGame/admin
+HTTP_REFERER=http://10.48.179.107/ydc/index.php?r=dailygame/admin
+---
+2012/11/30 17:17:32 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1044] Access denied for user 'dc'@'10.48.179.%' to database 'gp_platform'' in /web/ydc/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /web/ydc/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /web/ydc/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /web/ydc/framework/base/CModule.php(388): CDbConnection->init()
+#3 /web/ydc/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /web/ydc/framework/db/ar/CActiveRecord.php(624): CApplication->getDb()
+#5 /web/ydc/framework/db/ar/CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 /web/ydc/framework/db/ar/CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(DailyGame))
+#7 /web/ydc/framework/db/ar/CActiveRecord.php(403): CActiveRecord::model('DailyGame')
+#8 /web/ydc/framework/db/ar/CActiveRecord.php(78): CActiveRecord->getMetaData()
+#9 /web/ydc/protected/controllers/DailyGameController.php(136): CActiveRecord->__construct('search')
+#10 /web/ydc/framework/web/actions/CInlineAction.php(50): DailyGameController->actionAdmin()
+#11 /web/ydc/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#12 /web/ydc/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 /web/ydc/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#14 /web/ydc/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 /web/ydc/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 /web/ydc/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 /web/ydc/framework/web/CController.php(292): CFilterChain->run()
+#18 /web/ydc/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 /web/ydc/framework/web/CWebApplication.php(283): CController->run('admin')
+#20 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('dailyGame/admin')
+#21 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#22 /web/ydc/index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/ydc/index.php?r=dailyGame/admin
+HTTP_REFERER=http://10.48.179.107/ydc/index.php?r=dailygame/admin
+---
+2012/11/30 17:49:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[08004] [1040] Too many connections' in /web/ydc/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /web/ydc/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /web/ydc/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /web/ydc/framework/base/CModule.php(388): CDbConnection->init()
+#3 /web/ydc/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /web/ydc/framework/db/ar/CActiveRecord.php(624): CApplication->getDb()
+#5 /web/ydc/framework/db/ar/CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 /web/ydc/framework/db/ar/CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(DailyGame))
+#7 /web/ydc/framework/db/ar/CActiveRecord.php(403): CActiveRecord::model('DailyGame')
+#8 /web/ydc/framework/db/ar/CActiveRecord.php(78): CActiveRecord->getMetaData()
+#9 /web/ydc/protected/controllers/DailyGameController.php(136): CActiveRecord->__construct('search')
+#10 /web/ydc/framework/web/actions/CInlineAction.php(50): DailyGameController->actionAdmin()
+#11 /web/ydc/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#12 /web/ydc/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 /web/ydc/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#14 /web/ydc/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 /web/ydc/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 /web/ydc/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 /web/ydc/framework/web/CController.php(292): CFilterChain->run()
+#18 /web/ydc/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 /web/ydc/framework/web/CWebApplication.php(283): CController->run('admin')
+#20 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('dailyGame/admin')
+#21 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#22 /web/ydc/index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/ydc/index.php?r=dailyGame/admin
+HTTP_REFERER=http://10.48.179.107/ydc/index.php?r=dailygame/admin
+---
+2012/11/30 17:49:45 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[08004] [1040] Too many connections' in /web/ydc/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /web/ydc/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /web/ydc/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /web/ydc/framework/base/CModule.php(388): CDbConnection->init()
+#3 /web/ydc/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /web/ydc/framework/db/ar/CActiveRecord.php(624): CApplication->getDb()
+#5 /web/ydc/framework/db/ar/CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 /web/ydc/framework/db/ar/CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(DailyGame))
+#7 /web/ydc/framework/db/ar/CActiveRecord.php(403): CActiveRecord::model('DailyGame')
+#8 /web/ydc/framework/db/ar/CActiveRecord.php(78): CActiveRecord->getMetaData()
+#9 /web/ydc/protected/controllers/DailyGameController.php(136): CActiveRecord->__construct('search')
+#10 /web/ydc/framework/web/actions/CInlineAction.php(50): DailyGameController->actionAdmin()
+#11 /web/ydc/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#12 /web/ydc/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 /web/ydc/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#14 /web/ydc/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 /web/ydc/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 /web/ydc/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 /web/ydc/framework/web/CController.php(292): CFilterChain->run()
+#18 /web/ydc/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 /web/ydc/framework/web/CWebApplication.php(283): CController->run('admin')
+#20 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('dailyGame/admin')
+#21 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#22 /web/ydc/index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/ydc/index.php?r=dailyGame/admin
+HTTP_REFERER=http://10.48.179.107/ydc/index.php?r=dailygame/admin
+---
+2012/11/30 17:49:50 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[08004] [1040] Too many connections' in /web/ydc/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /web/ydc/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /web/ydc/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /web/ydc/framework/base/CModule.php(388): CDbConnection->init()
+#3 /web/ydc/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /web/ydc/framework/db/ar/CActiveRecord.php(624): CApplication->getDb()
+#5 /web/ydc/framework/db/ar/CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 /web/ydc/framework/db/ar/CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(DailyGame))
+#7 /web/ydc/framework/db/ar/CActiveRecord.php(403): CActiveRecord::model('DailyGame')
+#8 /web/ydc/framework/db/ar/CActiveRecord.php(78): CActiveRecord->getMetaData()
+#9 /web/ydc/protected/controllers/DailyGameController.php(136): CActiveRecord->__construct('search')
+#10 /web/ydc/framework/web/actions/CInlineAction.php(50): DailyGameController->actionAdmin()
+#11 /web/ydc/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#12 /web/ydc/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 /web/ydc/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#14 /web/ydc/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 /web/ydc/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 /web/ydc/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 /web/ydc/framework/web/CController.php(292): CFilterChain->run()
+#18 /web/ydc/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 /web/ydc/framework/web/CWebApplication.php(283): CController->run('admin')
+#20 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('dailyGame/admin')
+#21 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#22 /web/ydc/index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/ydc/index.php?r=dailyGame/admin
+HTTP_REFERER=http://10.48.179.107/ydc/index.php?r=dailygame/admin
+---
+2012/11/30 17:50:37 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1040] Too many connections' in /web/ydc/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /web/ydc/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /web/ydc/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /web/ydc/framework/base/CModule.php(388): CDbConnection->init()
+#3 /web/ydc/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /web/ydc/framework/db/ar/CActiveRecord.php(624): CApplication->getDb()
+#5 /web/ydc/framework/db/ar/CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 /web/ydc/framework/db/ar/CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(DailyGame))
+#7 /web/ydc/framework/db/ar/CActiveRecord.php(403): CActiveRecord::model('DailyGame')
+#8 /web/ydc/framework/db/ar/CActiveRecord.php(78): CActiveRecord->getMetaData()
+#9 /web/ydc/protected/controllers/DailyGameController.php(136): CActiveRecord->__construct('search')
+#10 /web/ydc/framework/web/actions/CInlineAction.php(50): DailyGameController->actionAdmin()
+#11 /web/ydc/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#12 /web/ydc/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 /web/ydc/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#14 /web/ydc/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 /web/ydc/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 /web/ydc/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 /web/ydc/framework/web/CController.php(292): CFilterChain->run()
+#18 /web/ydc/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 /web/ydc/framework/web/CWebApplication.php(283): CController->run('admin')
+#20 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('dailyGame/admin')
+#21 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#22 /web/ydc/index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/ydc/index.php?r=dailyGame/admin
+HTTP_REFERER=http://10.48.179.107/ydc/index.php?r=dailygame/admin
+---
+2012/11/30 17:50:37 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1040] Too many connections' in /web/ydc/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /web/ydc/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /web/ydc/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /web/ydc/framework/base/CModule.php(388): CDbConnection->init()
+#3 /web/ydc/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /web/ydc/framework/db/ar/CActiveRecord.php(624): CApplication->getDb()
+#5 /web/ydc/framework/db/ar/CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 /web/ydc/framework/db/ar/CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(DailyGame))
+#7 /web/ydc/framework/db/ar/CActiveRecord.php(403): CActiveRecord::model('DailyGame')
+#8 /web/ydc/framework/db/ar/CActiveRecord.php(78): CActiveRecord->getMetaData()
+#9 /web/ydc/protected/controllers/DailyGameController.php(136): CActiveRecord->__construct('search')
+#10 /web/ydc/framework/web/actions/CInlineAction.php(50): DailyGameController->actionAdmin()
+#11 /web/ydc/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#12 /web/ydc/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 /web/ydc/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#14 /web/ydc/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 /web/ydc/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 /web/ydc/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 /web/ydc/framework/web/CController.php(292): CFilterChain->run()
+#18 /web/ydc/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 /web/ydc/framework/web/CWebApplication.php(283): CController->run('admin')
+#20 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('dailyGame/admin')
+#21 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#22 /web/ydc/index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/ydc/index.php?r=dailyGame/admin
+HTTP_REFERER=http://10.48.179.107/ydc/index.php?r=dailygame/admin
+---
+2012/11/30 17:51:58 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[08004] [1040] Too many connections' in /web/ydc/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /web/ydc/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /web/ydc/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /web/ydc/framework/base/CModule.php(388): CDbConnection->init()
+#3 /web/ydc/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /web/ydc/framework/db/ar/CActiveRecord.php(624): CApplication->getDb()
+#5 /web/ydc/framework/db/ar/CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 /web/ydc/framework/db/ar/CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(DailyGame))
+#7 /web/ydc/framework/db/ar/CActiveRecord.php(403): CActiveRecord::model('DailyGame')
+#8 /web/ydc/framework/db/ar/CActiveRecord.php(78): CActiveRecord->getMetaData()
+#9 /web/ydc/protected/controllers/DailyGameController.php(136): CActiveRecord->__construct('search')
+#10 /web/ydc/framework/web/actions/CInlineAction.php(50): DailyGameController->actionAdmin()
+#11 /web/ydc/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#12 /web/ydc/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 /web/ydc/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#14 /web/ydc/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 /web/ydc/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 /web/ydc/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 /web/ydc/framework/web/CController.php(292): CFilterChain->run()
+#18 /web/ydc/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 /web/ydc/framework/web/CWebApplication.php(283): CController->run('admin')
+#20 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('dailyGame/admin')
+#21 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#22 /web/ydc/index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/ydc/index.php?r=dailyGame/admin
+HTTP_REFERER=http://10.48.179.107/ydc/index.php?r=dailygame/admin
+---
+2012/11/30 17:51:59 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[08004] [1040] Too many connections' in /web/ydc/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /web/ydc/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /web/ydc/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /web/ydc/framework/base/CModule.php(388): CDbConnection->init()
+#3 /web/ydc/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /web/ydc/framework/db/ar/CActiveRecord.php(624): CApplication->getDb()
+#5 /web/ydc/framework/db/ar/CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 /web/ydc/framework/db/ar/CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(DailyGame))
+#7 /web/ydc/framework/db/ar/CActiveRecord.php(403): CActiveRecord::model('DailyGame')
+#8 /web/ydc/framework/db/ar/CActiveRecord.php(78): CActiveRecord->getMetaData()
+#9 /web/ydc/protected/controllers/DailyGameController.php(136): CActiveRecord->__construct('search')
+#10 /web/ydc/framework/web/actions/CInlineAction.php(50): DailyGameController->actionAdmin()
+#11 /web/ydc/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#12 /web/ydc/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 /web/ydc/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#14 /web/ydc/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 /web/ydc/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 /web/ydc/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 /web/ydc/framework/web/CController.php(292): CFilterChain->run()
+#18 /web/ydc/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 /web/ydc/framework/web/CWebApplication.php(283): CController->run('admin')
+#20 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('dailyGame/admin')
+#21 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#22 /web/ydc/index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/ydc/index.php?r=dailyGame/admin
+HTTP_REFERER=http://10.48.179.107/ydc/index.php?r=dailygame/admin
+---
+2012/11/30 17:53:10 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[08004] [1040] Too many connections' in /web/ydc/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /web/ydc/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /web/ydc/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /web/ydc/framework/base/CModule.php(388): CDbConnection->init()
+#3 /web/ydc/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /web/ydc/framework/db/ar/CActiveRecord.php(624): CApplication->getDb()
+#5 /web/ydc/framework/db/ar/CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 /web/ydc/framework/db/ar/CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(DailyGame))
+#7 /web/ydc/framework/db/ar/CActiveRecord.php(403): CActiveRecord::model('DailyGame')
+#8 /web/ydc/framework/db/ar/CActiveRecord.php(78): CActiveRecord->getMetaData()
+#9 /web/ydc/protected/controllers/DailyGameController.php(136): CActiveRecord->__construct('search')
+#10 /web/ydc/framework/web/actions/CInlineAction.php(50): DailyGameController->actionAdmin()
+#11 /web/ydc/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#12 /web/ydc/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 /web/ydc/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#14 /web/ydc/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 /web/ydc/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 /web/ydc/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 /web/ydc/framework/web/CController.php(292): CFilterChain->run()
+#18 /web/ydc/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 /web/ydc/framework/web/CWebApplication.php(283): CController->run('admin')
+#20 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('dailyGame/admin')
+#21 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#22 /web/ydc/index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/ydc/index.php?r=dailyGame/admin
+HTTP_REFERER=http://10.48.179.107/ydc/index.php?r=dailygame/admin
+---
+2012/11/30 18:25:13 [warning] [application] Failed to set unsafe attribute "l_source" of "DailyGame".
+in /web/ydc/protected/controllers/DailyGameController.php (139)
+in /web/ydc/index.php (13)
+2012/11/30 18:25:23 [warning] [application] Failed to set unsafe attribute "l_source" of "DailyGame".
+in /web/ydc/protected/controllers/DailyGameController.php (139)
+in /web/ydc/index.php (13)
+2012/11/30 18:25:26 [warning] [application] Failed to set unsafe attribute "l_source" of "DailyGame".
+in /web/ydc/protected/controllers/DailyGameController.php (139)
+in /web/ydc/index.php (13)
+2012/11/30 18:39:44 [warning] [application] Failed to set unsafe attribute "l_source" of "DailyGame".
+in /web/ydc/protected/controllers/DailyGameController.php (139)
+in /web/ydc/index.php (13)
+2012/11/30 18:39:58 [warning] [application] Failed to set unsafe attribute "l_source" of "DailyGame".
+in /web/ydc/protected/controllers/DailyGameController.php (139)
+in /web/ydc/index.php (13)
+2012/11/30 18:40:00 [warning] [application] Failed to set unsafe attribute "l_source" of "DailyGame".
+in /web/ydc/protected/controllers/DailyGameController.php (139)
+in /web/ydc/index.php (13)
+2012/11/30 18:40:01 [warning] [application] Failed to set unsafe attribute "l_source" of "DailyGame".
+in /web/ydc/protected/controllers/DailyGameController.php (139)
+in /web/ydc/index.php (13)
+2012/11/30 18:40:02 [warning] [application] Failed to set unsafe attribute "l_source" of "DailyGame".
+in /web/ydc/protected/controllers/DailyGameController.php (139)
+in /web/ydc/index.php (13)
+2012/11/30 18:40:04 [warning] [application] Failed to set unsafe attribute "l_source" of "DailyGame".
+in /web/ydc/protected/controllers/DailyGameController.php (139)
+in /web/ydc/index.php (13)
+2012/11/30 18:40:05 [warning] [application] Failed to set unsafe attribute "l_source" of "DailyGame".
+in /web/ydc/protected/controllers/DailyGameController.php (139)
+in /web/ydc/index.php (13)
+2012/11/30 18:40:11 [warning] [application] Failed to set unsafe attribute "l_source" of "DailyGame".
+in /web/ydc/protected/controllers/DailyGameController.php (139)
+in /web/ydc/index.php (13)
+2012/11/30 18:40:17 [warning] [application] Failed to set unsafe attribute "l_source" of "DailyGame".
+in /web/ydc/protected/controllers/DailyGameController.php (139)
+in /web/ydc/index.php (13)
+2012/11/30 23:59:20 [error] [exception.CException] exception 'CException' with message 'Property "GpRechargeHis.id" is not defined.' in /web/ydc/framework/base/CComponent.php:131
+Stack trace:
+#0 /web/ydc/framework/db/ar/CActiveRecord.php(144): CComponent->__get('id')
+#1 /web/ydc/framework/web/helpers/CHtml.php(2158): CActiveRecord->__get('id')
+#2 /web/ydc/framework/web/helpers/CHtml.php(1887): CHtml::resolveValue(Object(GpRechargeHis), 'id')
+#3 /web/ydc/framework/web/helpers/CHtml.php(1217): CHtml::activeInputField('text', Object(GpRechargeHis), 'id', Array)
+#4 /web/ydc/framework/web/widgets/CActiveForm.php(658): CHtml::activeTextField(Object(GpRechargeHis), 'id', Array)
+#5 /web/ydc/protected/views/gpRechargeHis/_search.php(16): CActiveForm->textField(Object(GpRechargeHis), 'id')
+#6 /web/ydc/framework/web/CBaseController.php(127): require('/web/ydc/protec...')
+#7 /web/ydc/framework/web/CBaseController.php(96): CBaseController->renderInternal('/web/ydc/protec...', Array, true)
+#8 /web/ydc/framework/web/CController.php(870): CBaseController->renderFile('/web/ydc/protec...', Array, true)
+#9 /web/ydc/protected/views/gpRechargeHis/admin.php(40): CController->renderPartial('_search', Array)
+#10 /web/ydc/framework/web/CBaseController.php(127): require('/web/ydc/protec...')
+#11 /web/ydc/framework/web/CBaseController.php(96): CBaseController->renderInternal('/web/ydc/protec...', Array, true)
+#12 /web/ydc/framework/web/CController.php(870): CBaseController->renderFile('/web/ydc/protec...', Array, true)
+#13 /web/ydc/framework/web/CController.php(783): CController->renderPartial('admin', Array, true)
+#14 /web/ydc/protected/controllers/GpRechargeHisController.php(143): CController->render('admin', Array)
+#15 /web/ydc/framework/web/actions/CInlineAction.php(50): GpRechargeHisController->actionAdmin()
+#16 /web/ydc/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#17 /web/ydc/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#18 /web/ydc/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#19 /web/ydc/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#20 /web/ydc/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#21 /web/ydc/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#22 /web/ydc/framework/web/CController.php(292): CFilterChain->run()
+#23 /web/ydc/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /web/ydc/framework/web/CWebApplication.php(283): CController->run('admin')
+#25 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('gpRechargeHis/a...')
+#26 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#27 /web/ydc/index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/ydc/index.php?r=gpRechargeHis/admin
+HTTP_REFERER=http://218.108.132.10/ydc/index.php?r=dailyCash/admin
+---
+2012/12/02 01:25:41 [error] [php] Trying to get property of non-object (/web/ydc/protected/models/GpCp.php:106)
+Stack trace:
+#0 /web/ydc/framework/zii/widgets/grid/CDataColumn.php(132): CDataColumn->evaluateExpression()
+#1 /web/ydc/framework/zii/widgets/grid/CGridColumn.php(145): CDataColumn->renderDataCellContent()
+#2 /web/ydc/framework/zii/widgets/grid/CGridView.php(546): CDataColumn->renderDataCell()
+#3 /web/ydc/framework/zii/widgets/grid/CGridView.php(517): CGridView->renderTableRow()
+#4 /web/ydc/framework/zii/widgets/grid/CGridView.php(427): CGridView->renderTableBody()
+#5 /web/ydc/framework/zii/widgets/CBaseListView.php(161): CGridView->renderItems()
+#6 unknown(0): CGridView->renderSection()
+#7 /web/ydc/framework/zii/widgets/CBaseListView.php(144): preg_replace_callback()
+#8 /web/ydc/framework/zii/widgets/CBaseListView.php(129): CGridView->renderContent()
+#9 /web/ydc/framework/web/CBaseController.php(174): CGridView->run()
+#10 /web/ydc/protected/views/dailyCash/admin.php(60): DailyCashController->widget()
+#11 /web/ydc/framework/web/CBaseController.php(127): require()
+#12 /web/ydc/framework/web/CBaseController.php(96): DailyCashController->renderInternal()
+#13 /web/ydc/framework/web/CController.php(870): DailyCashController->renderFile()
+#14 /web/ydc/framework/web/CController.php(783): DailyCashController->renderPartial()
+#15 /web/ydc/protected/controllers/DailyCashController.php(143): DailyCashController->render()
+#16 /web/ydc/framework/web/actions/CInlineAction.php(50): DailyCashController->actionAdmin()
+#17 /web/ydc/framework/web/CController.php(309): CInlineAction->runWithParams()
+#18 /web/ydc/framework/web/filters/CFilterChain.php(134): DailyCashController->runAction()
+#19 /web/ydc/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#20 /web/ydc/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#21 /web/ydc/framework/web/filters/CInlineFilter.php(59): DailyCashController->filterAccessControl()
+#22 /web/ydc/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#23 /web/ydc/framework/web/CController.php(292): CFilterChain->run()
+#24 /web/ydc/framework/web/CController.php(266): DailyCashController->runActionWithFilters()
+#25 /web/ydc/framework/web/CWebApplication.php(283): DailyCashController->run()
+#26 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#27 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#28 /web/ydc/index.php(13): CWebApplication->run()
+REQUEST_URI=/ydc/index.php?r=dailyCash/admin
+in /web/ydc/protected/models/GpCp.php (106)
+in /web/ydc/protected/views/dailyCash/admin.php (60)
+in /web/ydc/protected/controllers/DailyCashController.php (143)
+2012/12/02 21:17:56 [error] [php] Trying to get property of non-object (/web/ydc/protected/models/GpGameSourceCfg.php:98)
+Stack trace:
+#0 /web/ydc/framework/zii/widgets/grid/CDataColumn.php(132): CDataColumn->evaluateExpression()
+#1 /web/ydc/framework/zii/widgets/grid/CGridColumn.php(145): CDataColumn->renderDataCellContent()
+#2 /web/ydc/framework/zii/widgets/grid/CGridView.php(546): CDataColumn->renderDataCell()
+#3 /web/ydc/framework/zii/widgets/grid/CGridView.php(517): CGridView->renderTableRow()
+#4 /web/ydc/framework/zii/widgets/grid/CGridView.php(427): CGridView->renderTableBody()
+#5 /web/ydc/framework/zii/widgets/CBaseListView.php(161): CGridView->renderItems()
+#6 unknown(0): CGridView->renderSection()
+#7 /web/ydc/framework/zii/widgets/CBaseListView.php(144): preg_replace_callback()
+#8 /web/ydc/framework/zii/widgets/CBaseListView.php(129): CGridView->renderContent()
+#9 /web/ydc/framework/web/CBaseController.php(174): CGridView->run()
+#10 /web/ydc/protected/views/dailyGame/admin.php(71): DailyGameController->widget()
+#11 /web/ydc/framework/web/CBaseController.php(127): require()
+#12 /web/ydc/framework/web/CBaseController.php(96): DailyGameController->renderInternal()
+#13 /web/ydc/framework/web/CController.php(870): DailyGameController->renderFile()
+#14 /web/ydc/framework/web/CController.php(783): DailyGameController->renderPartial()
+#15 /web/ydc/protected/controllers/DailyGameController.php(143): DailyGameController->render()
+#16 /web/ydc/framework/web/actions/CInlineAction.php(50): DailyGameController->actionAdmin()
+#17 /web/ydc/framework/web/CController.php(309): CInlineAction->runWithParams()
+#18 /web/ydc/framework/web/filters/CFilterChain.php(134): DailyGameController->runAction()
+#19 /web/ydc/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#20 /web/ydc/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#21 /web/ydc/framework/web/filters/CInlineFilter.php(59): DailyGameController->filterAccessControl()
+#22 /web/ydc/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#23 /web/ydc/framework/web/CController.php(292): CFilterChain->run()
+#24 /web/ydc/framework/web/CController.php(266): DailyGameController->runActionWithFilters()
+#25 /web/ydc/framework/web/CWebApplication.php(283): DailyGameController->run()
+#26 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#27 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#28 /web/ydc/index.php(13): CWebApplication->run()
+REQUEST_URI=/ydc/index.php?r=dailyGame/admin
+in /web/ydc/protected/models/GpGameSourceCfg.php (98)
+in /web/ydc/protected/views/dailyGame/admin.php (71)
+in /web/ydc/protected/controllers/DailyGameController.php (143)
+2012/12/02 21:33:46 [error] [php] Trying to get property of non-object (/web/ydc/protected/models/GpGameSourceCfg.php:98)
+Stack trace:
+#0 /web/ydc/framework/zii/widgets/grid/CDataColumn.php(132): CDataColumn->evaluateExpression()
+#1 /web/ydc/framework/zii/widgets/grid/CGridColumn.php(145): CDataColumn->renderDataCellContent()
+#2 /web/ydc/framework/zii/widgets/grid/CGridView.php(546): CDataColumn->renderDataCell()
+#3 /web/ydc/framework/zii/widgets/grid/CGridView.php(517): CGridView->renderTableRow()
+#4 /web/ydc/framework/zii/widgets/grid/CGridView.php(427): CGridView->renderTableBody()
+#5 /web/ydc/framework/zii/widgets/CBaseListView.php(161): CGridView->renderItems()
+#6 unknown(0): CGridView->renderSection()
+#7 /web/ydc/framework/zii/widgets/CBaseListView.php(144): preg_replace_callback()
+#8 /web/ydc/framework/zii/widgets/CBaseListView.php(129): CGridView->renderContent()
+#9 /web/ydc/framework/web/CBaseController.php(174): CGridView->run()
+#10 /web/ydc/protected/views/dailyGame/admin.php(71): DailyGameController->widget()
+#11 /web/ydc/framework/web/CBaseController.php(127): require()
+#12 /web/ydc/framework/web/CBaseController.php(96): DailyGameController->renderInternal()
+#13 /web/ydc/framework/web/CController.php(870): DailyGameController->renderFile()
+#14 /web/ydc/framework/web/CController.php(783): DailyGameController->renderPartial()
+#15 /web/ydc/protected/controllers/DailyGameController.php(143): DailyGameController->render()
+#16 /web/ydc/framework/web/actions/CInlineAction.php(50): DailyGameController->actionAdmin()
+#17 /web/ydc/framework/web/CController.php(309): CInlineAction->runWithParams()
+#18 /web/ydc/framework/web/filters/CFilterChain.php(134): DailyGameController->runAction()
+#19 /web/ydc/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#20 /web/ydc/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#21 /web/ydc/framework/web/filters/CInlineFilter.php(59): DailyGameController->filterAccessControl()
+#22 /web/ydc/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#23 /web/ydc/framework/web/CController.php(292): CFilterChain->run()
+#24 /web/ydc/framework/web/CController.php(266): DailyGameController->runActionWithFilters()
+#25 /web/ydc/framework/web/CWebApplication.php(283): DailyGameController->run()
+#26 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#27 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#28 /web/ydc/index.php(13): CWebApplication->run()
+REQUEST_URI=/ydc/index.php?r=dailyGame/admin
+in /web/ydc/protected/models/GpGameSourceCfg.php (98)
+in /web/ydc/protected/views/dailyGame/admin.php (71)
+in /web/ydc/protected/controllers/DailyGameController.php (143)
+2012/12/02 21:35:25 [error] [php] Trying to get property of non-object (/web/ydc/protected/models/GpGameSourceCfg.php:98)
+Stack trace:
+#0 /web/ydc/framework/zii/widgets/grid/CDataColumn.php(132): CDataColumn->evaluateExpression()
+#1 /web/ydc/framework/zii/widgets/grid/CGridColumn.php(145): CDataColumn->renderDataCellContent()
+#2 /web/ydc/framework/zii/widgets/grid/CGridView.php(546): CDataColumn->renderDataCell()
+#3 /web/ydc/framework/zii/widgets/grid/CGridView.php(517): CGridView->renderTableRow()
+#4 /web/ydc/framework/zii/widgets/grid/CGridView.php(427): CGridView->renderTableBody()
+#5 /web/ydc/framework/zii/widgets/CBaseListView.php(161): CGridView->renderItems()
+#6 unknown(0): CGridView->renderSection()
+#7 /web/ydc/framework/zii/widgets/CBaseListView.php(144): preg_replace_callback()
+#8 /web/ydc/framework/zii/widgets/CBaseListView.php(129): CGridView->renderContent()
+#9 /web/ydc/framework/web/CBaseController.php(174): CGridView->run()
+#10 /web/ydc/protected/views/dailyGame/admin.php(71): DailyGameController->widget()
+#11 /web/ydc/framework/web/CBaseController.php(127): require()
+#12 /web/ydc/framework/web/CBaseController.php(96): DailyGameController->renderInternal()
+#13 /web/ydc/framework/web/CController.php(870): DailyGameController->renderFile()
+#14 /web/ydc/framework/web/CController.php(783): DailyGameController->renderPartial()
+#15 /web/ydc/protected/controllers/DailyGameController.php(143): DailyGameController->render()
+#16 /web/ydc/framework/web/actions/CInlineAction.php(50): DailyGameController->actionAdmin()
+#17 /web/ydc/framework/web/CController.php(309): CInlineAction->runWithParams()
+#18 /web/ydc/framework/web/filters/CFilterChain.php(134): DailyGameController->runAction()
+#19 /web/ydc/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#20 /web/ydc/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#21 /web/ydc/framework/web/filters/CInlineFilter.php(59): DailyGameController->filterAccessControl()
+#22 /web/ydc/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#23 /web/ydc/framework/web/CController.php(292): CFilterChain->run()
+#24 /web/ydc/framework/web/CController.php(266): DailyGameController->runActionWithFilters()
+#25 /web/ydc/framework/web/CWebApplication.php(283): DailyGameController->run()
+#26 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#27 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#28 /web/ydc/index.php(13): CWebApplication->run()
+REQUEST_URI=/ydc/index.php?r=dailyGame/admin
+in /web/ydc/protected/models/GpGameSourceCfg.php (98)
+in /web/ydc/protected/views/dailyGame/admin.php (71)
+in /web/ydc/protected/controllers/DailyGameController.php (143)
+2012/12/07 16:05:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Admin/".' in /web/ydc/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('Admin/')
+#1 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /web/ydc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ydc/?r=Admin/
+---
+2012/12/07 16:05:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Admin".' in /web/ydc/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('Admin')
+#1 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /web/ydc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ydc/?r=Admin
+---
+2012/12/07 16:05:40 [error] [php] include(MoniterPortList.php): failed to open stream: No such file or directory (/web/ydc/framework/YiiBase.php:423)
+Stack trace:
+#0 /web/ydc/framework/db/ar/CActiveRecord.php(387): spl_autoload_call()
+#1 /web/ydc/framework/web/CActiveDataProvider.php(75): model()
+#2 /web/ydc/protected/controllers/MoniterPortListController.php(125): CActiveDataProvider->__construct()
+#3 /web/ydc/framework/web/actions/CInlineAction.php(50): MoniterPortListController->actionIndex()
+#4 /web/ydc/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /web/ydc/framework/web/filters/CFilterChain.php(134): MoniterPortListController->runAction()
+#6 /web/ydc/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /web/ydc/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#8 /web/ydc/framework/web/filters/CInlineFilter.php(59): MoniterPortListController->filterAccessControl()
+#9 /web/ydc/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#10 /web/ydc/framework/web/CController.php(292): CFilterChain->run()
+#11 /web/ydc/framework/web/CController.php(266): MoniterPortListController->runActionWithFilters()
+#12 /web/ydc/framework/web/CWebApplication.php(283): MoniterPortListController->run()
+#13 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#14 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /web/ydc/index.php(13): CWebApplication->run()
+REQUEST_URI=/ydc/?r=MoniterPortList
+in /web/ydc/protected/controllers/MoniterPortListController.php (125)
+in /web/ydc/index.php (13)
+2012/12/07 16:06:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Admin/admin".' in /web/ydc/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('Admin/admin')
+#1 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /web/ydc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ydc/index.php?r=Admin/admin
+---
+2012/12/07 16:07:17 [error] [php] include(CheckPortStatus.php): failed to open stream: No such file or directory (/web/ydc/framework/YiiBase.php:423)
+Stack trace:
+#0 /web/ydc/protected/controllers/CheckPortStatusController.php(136): spl_autoload_call()
+#1 /web/ydc/framework/web/actions/CInlineAction.php(50): CheckPortStatusController->actionAdmin()
+#2 /web/ydc/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /web/ydc/framework/web/filters/CFilterChain.php(134): CheckPortStatusController->runAction()
+#4 /web/ydc/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#5 /web/ydc/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#6 /web/ydc/framework/web/filters/CInlineFilter.php(59): CheckPortStatusController->filterAccessControl()
+#7 /web/ydc/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#8 /web/ydc/framework/web/CController.php(292): CFilterChain->run()
+#9 /web/ydc/framework/web/CController.php(266): CheckPortStatusController->runActionWithFilters()
+#10 /web/ydc/framework/web/CWebApplication.php(283): CheckPortStatusController->run()
+#11 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#12 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /web/ydc/index.php(13): CWebApplication->run()
+REQUEST_URI=/ydc/index.php?r=checkPortStatus/admin
+in /web/ydc/protected/controllers/CheckPortStatusController.php (136)
+in /web/ydc/index.php (13)
+2012/12/07 16:08:07 [error] [php] include(CheckPortStatus.php): failed to open stream: No such file or directory (/web/ydc/framework/YiiBase.php:423)
+Stack trace:
+#0 /web/ydc/protected/controllers/CheckPortStatusController.php(136): spl_autoload_call()
+#1 /web/ydc/framework/web/actions/CInlineAction.php(50): CheckPortStatusController->actionAdmin()
+#2 /web/ydc/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /web/ydc/framework/web/filters/CFilterChain.php(134): CheckPortStatusController->runAction()
+#4 /web/ydc/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#5 /web/ydc/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#6 /web/ydc/framework/web/filters/CInlineFilter.php(59): CheckPortStatusController->filterAccessControl()
+#7 /web/ydc/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#8 /web/ydc/framework/web/CController.php(292): CFilterChain->run()
+#9 /web/ydc/framework/web/CController.php(266): CheckPortStatusController->runActionWithFilters()
+#10 /web/ydc/framework/web/CWebApplication.php(283): CheckPortStatusController->run()
+#11 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#12 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /web/ydc/index.php(13): CWebApplication->run()
+REQUEST_URI=/ydc/index.php?r=checkPortStatus/admin
+in /web/ydc/protected/controllers/CheckPortStatusController.php (136)
+in /web/ydc/index.php (13)
+2012/12/07 16:08:08 [error] [php] include(CheckPortStatus.php): failed to open stream: No such file or directory (/web/ydc/framework/YiiBase.php:423)
+Stack trace:
+#0 /web/ydc/protected/controllers/CheckPortStatusController.php(136): spl_autoload_call()
+#1 /web/ydc/framework/web/actions/CInlineAction.php(50): CheckPortStatusController->actionAdmin()
+#2 /web/ydc/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /web/ydc/framework/web/filters/CFilterChain.php(134): CheckPortStatusController->runAction()
+#4 /web/ydc/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#5 /web/ydc/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#6 /web/ydc/framework/web/filters/CInlineFilter.php(59): CheckPortStatusController->filterAccessControl()
+#7 /web/ydc/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#8 /web/ydc/framework/web/CController.php(292): CFilterChain->run()
+#9 /web/ydc/framework/web/CController.php(266): CheckPortStatusController->runActionWithFilters()
+#10 /web/ydc/framework/web/CWebApplication.php(283): CheckPortStatusController->run()
+#11 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#12 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /web/ydc/index.php(13): CWebApplication->run()
+REQUEST_URI=/ydc/index.php?r=checkPortStatus/admin
+in /web/ydc/protected/controllers/CheckPortStatusController.php (136)
+in /web/ydc/index.php (13)
+2012/12/07 16:29:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Admin/MoniterPortStatus".' in /web/ydc/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('Admin/MoniterPo...')
+#1 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /web/ydc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ydc/index.php?r=Admin/MoniterPortStatus
+---
+2012/12/07 16:30:41 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /web/ydc/framework/web/CController.php:337
+Stack trace:
+#0 /web/ydc/framework/web/CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 /web/ydc/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 /web/ydc/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#3 /web/ydc/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 /web/ydc/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 /web/ydc/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 /web/ydc/framework/web/CController.php(292): CFilterChain->run()
+#7 /web/ydc/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /web/ydc/framework/web/CWebApplication.php(283): CController->run('view')
+#9 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('Admin/checkPort...')
+#10 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#11 /web/ydc/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/ydc/index.php?r=Admin/checkPortStatus/view
+---
+2012/12/07 16:55:18 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1014' for key 'item_id_2'. The SQL statement executed was: INSERT INTO `monitor_moniter_port_list` (`item_id`, `item_name`, `item_host`, `item_port`) VALUES (:yp0, :yp1, :yp2, :yp3). Bound with :yp0=1014, :yp1='三英战吕布', :yp2='10.48.179.106', :yp3=8615.
+in /web/ydc/protected/controllers/Admin/MoniterPortListController.php (73)
+in /web/ydc/index.php (13)
+2012/12/07 16:55:18 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1014' for key 'item_id_2'. The SQL statement executed was: INSERT INTO `monitor_moniter_port_list` (`item_id`, `item_name`, `item_host`, `item_port`) VALUES (:yp0, :yp1, :yp2, :yp3). Bound with :yp0=1014, :yp1='三英战吕布', :yp2='10.48.179.106', :yp3=8615' in /web/ydc/framework/db/CDbCommand.php:354
+Stack trace:
+#0 /web/ydc/framework/db/ar/CActiveRecord.php(1017): CDbCommand->execute()
+#1 /web/ydc/framework/db/ar/CActiveRecord.php(796): CActiveRecord->insert(NULL)
+#2 /web/ydc/protected/controllers/Admin/MoniterPortListController.php(73): CActiveRecord->save()
+#3 /web/ydc/framework/web/actions/CInlineAction.php(50): MoniterPortListController->actionCreate()
+#4 /web/ydc/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /web/ydc/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /web/ydc/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /web/ydc/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /web/ydc/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /web/ydc/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /web/ydc/framework/web/CController.php(292): CFilterChain->run()
+#11 /web/ydc/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /web/ydc/framework/web/CWebApplication.php(283): CController->run('create')
+#13 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('Admin/moniterPo...')
+#14 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /web/ydc/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ydc/index.php?r=Admin/moniterPortList/create
+HTTP_REFERER=http://10.48.179.107/ydc/index.php?r=Admin/moniterPortList/create
+---
+2012/12/30 10:28:43 [error] [php] Trying to get property of non-object (/web/ydc/protected/models/GpCp.php:106)
+Stack trace:
+#0 /web/ydc/framework/zii/widgets/grid/CDataColumn.php(132): CDataColumn->evaluateExpression()
+#1 /web/ydc/framework/zii/widgets/grid/CGridColumn.php(145): CDataColumn->renderDataCellContent()
+#2 /web/ydc/framework/zii/widgets/grid/CGridView.php(546): CDataColumn->renderDataCell()
+#3 /web/ydc/framework/zii/widgets/grid/CGridView.php(517): CGridView->renderTableRow()
+#4 /web/ydc/framework/zii/widgets/grid/CGridView.php(427): CGridView->renderTableBody()
+#5 /web/ydc/framework/zii/widgets/CBaseListView.php(161): CGridView->renderItems()
+#6 unknown(0): CGridView->renderSection()
+#7 /web/ydc/framework/zii/widgets/CBaseListView.php(144): preg_replace_callback()
+#8 /web/ydc/framework/zii/widgets/CBaseListView.php(129): CGridView->renderContent()
+#9 /web/ydc/framework/web/CBaseController.php(174): CGridView->run()
+#10 /web/ydc/protected/views/dailyCash/admin.php(63): DailyCashController->widget()
+#11 /web/ydc/framework/web/CBaseController.php(127): require()
+#12 /web/ydc/framework/web/CBaseController.php(96): DailyCashController->renderInternal()
+#13 /web/ydc/framework/web/CController.php(870): DailyCashController->renderFile()
+#14 /web/ydc/framework/web/CController.php(783): DailyCashController->renderPartial()
+#15 /web/ydc/protected/controllers/DailyCashController.php(143): DailyCashController->render()
+#16 /web/ydc/framework/web/actions/CInlineAction.php(50): DailyCashController->actionAdmin()
+#17 /web/ydc/framework/web/CController.php(309): CInlineAction->runWithParams()
+#18 /web/ydc/framework/web/filters/CFilterChain.php(134): DailyCashController->runAction()
+#19 /web/ydc/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#20 /web/ydc/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#21 /web/ydc/framework/web/filters/CInlineFilter.php(59): DailyCashController->filterAccessControl()
+#22 /web/ydc/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#23 /web/ydc/framework/web/CController.php(292): CFilterChain->run()
+#24 /web/ydc/framework/web/CController.php(266): DailyCashController->runActionWithFilters()
+#25 /web/ydc/framework/web/CWebApplication.php(283): DailyCashController->run()
+#26 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#27 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#28 /web/ydc/index.php(13): CWebApplication->run()
+REQUEST_URI=/ydc/index.php?r=dailyCash/admin
+in /web/ydc/protected/models/GpCp.php (106)
+in /web/ydc/protected/views/dailyCash/admin.php (63)
+in /web/ydc/protected/controllers/DailyCashController.php (143)
+2012/12/30 10:31:41 [error] [php] Trying to get property of non-object (/web/ydc/protected/models/GpCp.php:106)
+Stack trace:
+#0 /web/ydc/framework/zii/widgets/grid/CDataColumn.php(132): CDataColumn->evaluateExpression()
+#1 /web/ydc/framework/zii/widgets/grid/CGridColumn.php(145): CDataColumn->renderDataCellContent()
+#2 /web/ydc/framework/zii/widgets/grid/CGridView.php(546): CDataColumn->renderDataCell()
+#3 /web/ydc/framework/zii/widgets/grid/CGridView.php(517): CGridView->renderTableRow()
+#4 /web/ydc/framework/zii/widgets/grid/CGridView.php(427): CGridView->renderTableBody()
+#5 /web/ydc/framework/zii/widgets/CBaseListView.php(161): CGridView->renderItems()
+#6 unknown(0): CGridView->renderSection()
+#7 /web/ydc/framework/zii/widgets/CBaseListView.php(144): preg_replace_callback()
+#8 /web/ydc/framework/zii/widgets/CBaseListView.php(129): CGridView->renderContent()
+#9 /web/ydc/framework/web/CBaseController.php(174): CGridView->run()
+#10 /web/ydc/protected/views/dailyCash/admin.php(63): DailyCashController->widget()
+#11 /web/ydc/framework/web/CBaseController.php(127): require()
+#12 /web/ydc/framework/web/CBaseController.php(96): DailyCashController->renderInternal()
+#13 /web/ydc/framework/web/CController.php(870): DailyCashController->renderFile()
+#14 /web/ydc/framework/web/CController.php(783): DailyCashController->renderPartial()
+#15 /web/ydc/protected/controllers/DailyCashController.php(143): DailyCashController->render()
+#16 /web/ydc/framework/web/actions/CInlineAction.php(50): DailyCashController->actionAdmin()
+#17 /web/ydc/framework/web/CController.php(309): CInlineAction->runWithParams()
+#18 /web/ydc/framework/web/filters/CFilterChain.php(134): DailyCashController->runAction()
+#19 /web/ydc/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#20 /web/ydc/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#21 /web/ydc/framework/web/filters/CInlineFilter.php(59): DailyCashController->filterAccessControl()
+#22 /web/ydc/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#23 /web/ydc/framework/web/CController.php(292): CFilterChain->run()
+#24 /web/ydc/framework/web/CController.php(266): DailyCashController->runActionWithFilters()
+#25 /web/ydc/framework/web/CWebApplication.php(283): DailyCashController->run()
+#26 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#27 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#28 /web/ydc/index.php(13): CWebApplication->run()
+REQUEST_URI=/ydc/index.php?r=dailyCash/admin
+in /web/ydc/protected/models/GpCp.php (106)
+in /web/ydc/protected/views/dailyCash/admin.php (63)
+in /web/ydc/protected/controllers/DailyCashController.php (143)
+2012/12/30 10:32:01 [error] [php] Trying to get property of non-object (/web/ydc/protected/models/GpCp.php:106)
+Stack trace:
+#0 /web/ydc/framework/zii/widgets/grid/CDataColumn.php(132): CDataColumn->evaluateExpression()
+#1 /web/ydc/framework/zii/widgets/grid/CGridColumn.php(145): CDataColumn->renderDataCellContent()
+#2 /web/ydc/framework/zii/widgets/grid/CGridView.php(546): CDataColumn->renderDataCell()
+#3 /web/ydc/framework/zii/widgets/grid/CGridView.php(517): CGridView->renderTableRow()
+#4 /web/ydc/framework/zii/widgets/grid/CGridView.php(427): CGridView->renderTableBody()
+#5 /web/ydc/framework/zii/widgets/CBaseListView.php(161): CGridView->renderItems()
+#6 unknown(0): CGridView->renderSection()
+#7 /web/ydc/framework/zii/widgets/CBaseListView.php(144): preg_replace_callback()
+#8 /web/ydc/framework/zii/widgets/CBaseListView.php(129): CGridView->renderContent()
+#9 /web/ydc/framework/web/CBaseController.php(174): CGridView->run()
+#10 /web/ydc/protected/views/dailyCash/admin.php(63): DailyCashController->widget()
+#11 /web/ydc/framework/web/CBaseController.php(127): require()
+#12 /web/ydc/framework/web/CBaseController.php(96): DailyCashController->renderInternal()
+#13 /web/ydc/framework/web/CController.php(870): DailyCashController->renderFile()
+#14 /web/ydc/framework/web/CController.php(783): DailyCashController->renderPartial()
+#15 /web/ydc/protected/controllers/DailyCashController.php(143): DailyCashController->render()
+#16 /web/ydc/framework/web/actions/CInlineAction.php(50): DailyCashController->actionAdmin()
+#17 /web/ydc/framework/web/CController.php(309): CInlineAction->runWithParams()
+#18 /web/ydc/framework/web/filters/CFilterChain.php(134): DailyCashController->runAction()
+#19 /web/ydc/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#20 /web/ydc/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#21 /web/ydc/framework/web/filters/CInlineFilter.php(59): DailyCashController->filterAccessControl()
+#22 /web/ydc/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#23 /web/ydc/framework/web/CController.php(292): CFilterChain->run()
+#24 /web/ydc/framework/web/CController.php(266): DailyCashController->runActionWithFilters()
+#25 /web/ydc/framework/web/CWebApplication.php(283): DailyCashController->run()
+#26 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#27 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#28 /web/ydc/index.php(13): CWebApplication->run()
+REQUEST_URI=/ydc/index.php?r=dailyCash/admin
+in /web/ydc/protected/models/GpCp.php (106)
+in /web/ydc/protected/views/dailyCash/admin.php (63)
+in /web/ydc/protected/controllers/DailyCashController.php (143)
+2013/01/16 11:00:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dailycash/admin".' in /web/ydc/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('dailycash/admin')
+#1 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /web/ydc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ydc/index.php?r=dailycash/admin
+HTTP_REFERER=http://218.108.132.10/
+---
+2013/01/16 11:00:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dailycash/admin".' in /web/ydc/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('dailycash/admin')
+#1 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /web/ydc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ydc/index.php?r=dailycash/admin
+HTTP_REFERER=http://218.108.132.10/
+---
+2013/01/16 11:00:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dailycash/admin".' in /web/ydc/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /web/ydc/framework/web/CWebApplication.php(142): CWebApplication->runController('dailycash/admin')
+#1 /web/ydc/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /web/ydc/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ydc/index.php?r=dailycash/admin
+HTTP_REFERER=http://218.108.132.10/
+---

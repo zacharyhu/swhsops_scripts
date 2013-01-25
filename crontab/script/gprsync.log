@@ -1,0 +1,36 @@
+receiving file list ... 
+34 files to consider
+ 0 files...                    coin/1209.db
+           0   0%    0.00kB/s    0:00:00     2725888 100%  108.32MB/s    0:00:00 (xfer#1, to-check=26/34)
+huanlegu/singlegame/102.db3
+           0   0%    0.00kB/s    0:00:00      906240 100%   15.71MB/s    0:00:00 (xfer#2, to-check=23/34)
+huanlegu/singlegame/104.db3
+           0   0%    0.00kB/s    0:00:00     4133888 100%   16.09MB/s    0:00:00 (xfer#3, to-check=21/34)
+huanlegu/singlegame/105.db3
+           0   0%    0.00kB/s    0:00:00     3412992 100%    9.69MB/s    0:00:00 (xfer#4, to-check=20/34)
+huanlegu/singlegame/106.db3
+           0   0%    0.00kB/s    0:00:00     4928512 100%    9.40MB/s    0:00:00 (xfer#5, to-check=19/34)
+huanlegu/singlegame/112.db3
+           0   0%    0.00kB/s    0:00:00      142336 100%  276.34kB/s    0:00:00 (xfer#6, to-check=13/34)
+huanlegu/singlegame/201.db3
+           0   0%    0.00kB/s    0:00:00     2116608 100%    3.24MB/s    0:00:00 (xfer#7, to-check=10/34)
+huanlegu/singlegame/login.db3
+           0   0%    0.00kB/s    0:00:00     1914880   3% 1022.42kB/s    0:00:46    49680384 100%   22.65MB/s    0:00:02 (xfer#8, to-check=9/34)
+lucky/Ttable.db
+           0   0%    0.00kB/s    0:00:00    18079744 100%   25.36MB/s    0:00:00 (xfer#9, to-check=7/34)
+pay/1209.db
+           0   0%    0.00kB/s    0:00:00       49152 100%   70.18kB/s    0:00:00 (xfer#10, to-check=0/34)
+
+sent 137777 bytes  received 481380 bytes  82554.27 bytes/sec
+total size is 103319552  speedup is 166.87
+receiving file list ... 
+4 files to consider
+ 0 files...                    114.db3
+           0   0%    0.00kB/s    0:00:00     1824768 100%   40.47MB/s    0:00:00 (xfer#1, to-check=2/4)
+115.db3
+           0   0%    0.00kB/s    0:00:00     2540544 100%   12.11MB/s    0:00:00 (xfer#2, to-check=1/4)
+login.db3
+           0   0%    0.00kB/s    0:00:00     4855808 100%   12.45MB/s    0:00:00 (xfer#3, to-check=0/4)
+
+sent 31051 bytes  received 155134 bytes  33851.82 bytes/sec
+total size is 9221120  speedup is 49.53
